@@ -1,0 +1,2 @@
+Invoking command in '/home/pizzu01/ros2_humble/build/tm_moveit_config': /usr/bin/cmake --build /home/pizzu01/ros2_humble/build/tm_moveit_config -- -j4 -l4
+Invoked command in '/home/pizzu01/ros2_humble/build/tm_moveit_config' returned '2': /usr/bin/cmake --build /home/pizzu01/ros2_humble/build/tm_moveit_config -- -j4 -l4

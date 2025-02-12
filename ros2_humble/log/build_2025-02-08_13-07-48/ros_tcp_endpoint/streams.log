@@ -1,0 +1,72 @@
+[1.372s] Invoking command in '/home/pizzu01/ros2_humble/src/ROS-TCP-Endpoint': PYTHONPATH=/home/pizzu01/ros2_humble/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/pizzu01/ros2_humble/build/ros_tcp_endpoint/build install --record /home/pizzu01/ros2_humble/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed install_data
+[1.797s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.797s]   warnings.warn(
+[1.813s] running egg_info
+[1.814s] creating ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info
+[1.815s] writing ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/PKG-INFO
+[1.816s] writing dependency_links to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/dependency_links.txt
+[1.816s] writing entry points to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/entry_points.txt
+[1.816s] writing requirements to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/requires.txt
+[1.816s] writing top-level names to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/top_level.txt
+[1.817s] writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[1.822s] reading manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[1.822s] adding license file 'LICENSE'
+[1.823s] writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[1.824s] running build
+[1.824s] running build_py
+[1.824s] creating /home/pizzu01/ros2_humble/build/ros_tcp_endpoint/build
+[1.826s] creating /home/pizzu01/ros2_humble/build/ros_tcp_endpoint/build/lib
+[1.826s] creating /home/pizzu01/ros2_humble/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.827s] copying ros_tcp_endpoint/subscriber.py -> /home/pizzu01/ros2_humble/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.827s] copying ros_tcp_endpoint/unity_service.py -> /home/pizzu01/ros2_humble/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.828s] copying ros_tcp_endpoint/server.py -> /home/pizzu01/ros2_humble/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.829s] copying ros_tcp_endpoint/thread_pauser.py -> /home/pizzu01/ros2_humble/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.829s] copying ros_tcp_endpoint/communication.py -> /home/pizzu01/ros2_humble/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.830s] copying ros_tcp_endpoint/__init__.py -> /home/pizzu01/ros2_humble/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.831s] copying ros_tcp_endpoint/exceptions.py -> /home/pizzu01/ros2_humble/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.832s] copying ros_tcp_endpoint/client.py -> /home/pizzu01/ros2_humble/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.832s] copying ros_tcp_endpoint/default_server_endpoint.py -> /home/pizzu01/ros2_humble/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.833s] copying ros_tcp_endpoint/service.py -> /home/pizzu01/ros2_humble/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.834s] copying ros_tcp_endpoint/publisher.py -> /home/pizzu01/ros2_humble/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.834s] copying ros_tcp_endpoint/tcp_sender.py -> /home/pizzu01/ros2_humble/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[1.836s] running install
+[1.837s] running install_lib
+[1.838s] creating /home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[1.839s] copying /home/pizzu01/ros2_humble/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/subscriber.py -> /home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[1.839s] copying /home/pizzu01/ros2_humble/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/unity_service.py -> /home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[1.840s] copying /home/pizzu01/ros2_humble/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/server.py -> /home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[1.841s] copying /home/pizzu01/ros2_humble/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/thread_pauser.py -> /home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[1.842s] copying /home/pizzu01/ros2_humble/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/communication.py -> /home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[1.845s] copying /home/pizzu01/ros2_humble/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/__init__.py -> /home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[1.847s] copying /home/pizzu01/ros2_humble/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/exceptions.py -> /home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[1.847s] copying /home/pizzu01/ros2_humble/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/client.py -> /home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[1.847s] copying /home/pizzu01/ros2_humble/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/default_server_endpoint.py -> /home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[1.847s] copying /home/pizzu01/ros2_humble/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/service.py -> /home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[1.847s] copying /home/pizzu01/ros2_humble/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/publisher.py -> /home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[1.848s] copying /home/pizzu01/ros2_humble/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/tcp_sender.py -> /home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[1.848s] byte-compiling /home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/subscriber.py to subscriber.cpython-310.pyc
+[1.848s] byte-compiling /home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/unity_service.py to unity_service.cpython-310.pyc
+[1.849s] byte-compiling /home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/server.py to server.cpython-310.pyc
+[1.853s] byte-compiling /home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/thread_pauser.py to thread_pauser.cpython-310.pyc
+[1.854s] byte-compiling /home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/communication.py to communication.cpython-310.pyc
+[1.855s] byte-compiling /home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/__init__.py to __init__.cpython-310.pyc
+[1.857s] byte-compiling /home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/exceptions.py to exceptions.cpython-310.pyc
+[1.858s] byte-compiling /home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/client.py to client.cpython-310.pyc
+[1.859s] byte-compiling /home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/default_server_endpoint.py to default_server_endpoint.cpython-310.pyc
+[1.861s] byte-compiling /home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/service.py to service.cpython-310.pyc
+[1.862s] byte-compiling /home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/publisher.py to publisher.cpython-310.pyc
+[1.863s] byte-compiling /home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/tcp_sender.py to tcp_sender.cpython-310.pyc
+[1.866s] running install_data
+[1.867s] creating /home/pizzu01/ros2_humble/install/ros_tcp_endpoint/share/ament_index
+[1.868s] creating /home/pizzu01/ros2_humble/install/ros_tcp_endpoint/share/ament_index/resource_index
+[1.868s] creating /home/pizzu01/ros2_humble/install/ros_tcp_endpoint/share/ament_index/resource_index/packages
+[1.868s] copying resource/ros_tcp_endpoint -> /home/pizzu01/ros2_humble/install/ros_tcp_endpoint/share/ament_index/resource_index/packages
+[1.868s] copying package.xml -> /home/pizzu01/ros2_humble/install/ros_tcp_endpoint/share/ros_tcp_endpoint
+[1.869s] creating /home/pizzu01/ros2_humble/install/ros_tcp_endpoint/share/ros_tcp_endpoint/launch
+[1.869s] copying launch/endpoint.py -> /home/pizzu01/ros2_humble/install/ros_tcp_endpoint/share/ros_tcp_endpoint/launch
+[1.869s] running install_egg_info
+[1.872s] Copying ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info to /home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint-0.0.1-py3.10.egg-info
+[1.873s] running install_scripts
+[1.923s] Installing default_server_endpoint script to /home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/ros_tcp_endpoint
+[1.925s] writing list of installed files to '/home/pizzu01/ros2_humble/build/ros_tcp_endpoint/install.log'
+[1.984s] Invoked command in '/home/pizzu01/ros2_humble/src/ROS-TCP-Endpoint' returned '0': PYTHONPATH=/home/pizzu01/ros2_humble/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/pizzu01/ros2_humble/build/ros_tcp_endpoint/build install --record /home/pizzu01/ros2_humble/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed install_data

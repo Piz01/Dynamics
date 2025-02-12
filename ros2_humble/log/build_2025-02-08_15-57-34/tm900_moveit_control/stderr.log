@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:12 (find_package):
+  By not providing "Findmoveit_commander.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "moveit_commander", but CMake did not find one.
+
+  Could not find a package configuration file provided by "moveit_commander"
+  with any of the following names:
+
+    moveit_commanderConfig.cmake
+    moveit_commander-config.cmake
+
+  Add the installation prefix of "moveit_commander" to CMAKE_PREFIX_PATH or
+  set "moveit_commander_DIR" to a directory containing one of the above
+  files.  If "moveit_commander" provides a separate development package or
+  SDK, be sure it has been installed.
+
+[0m

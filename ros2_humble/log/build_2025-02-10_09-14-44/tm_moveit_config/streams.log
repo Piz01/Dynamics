@@ -1,0 +1,10 @@
+[0.158s] Invoking command in '/home/pizzu01/ros2_humble/build/tm_moveit_config': CMAKE_PREFIX_PATH=/home/pizzu01/ros2_humble/install/tm_description:/home/pizzu01/ros2_humble/install/tm_moveit_config:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint:/home/pizzu01/ros2_humble/install/my_ros2_package:/home/pizzu01/install/ros_tcp_endpoint:/home/pizzu01/install/my_ros2_package:/opt/ros/humble /usr/bin/cmake --build /home/pizzu01/ros2_humble/build/tm_moveit_config -- -j4 -l4
+[0.328s] [ 50%] [32mBuilding CXX object CMakeFiles/tm_moveit_config.dir/src/tm_moveit_control.cpp.o[0m
+[0.426s] [01m[K/home/pizzu01/ros2_humble/src/tm_moveit_config/src/tm_moveit_control.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.426s]     1 | #include [01;31m[K<rclcpp/rclcpp.hpp>[m[K
+[0.427s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.427s] compilation terminated.
+[0.430s] gmake[2]: *** [CMakeFiles/tm_moveit_config.dir/build.make:76: CMakeFiles/tm_moveit_config.dir/src/tm_moveit_control.cpp.o] Error 1
+[0.430s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/tm_moveit_config.dir/all] Error 2
+[0.430s] gmake: *** [Makefile:146: all] Error 2
+[0.433s] Invoked command in '/home/pizzu01/ros2_humble/build/tm_moveit_config' returned '2': CMAKE_PREFIX_PATH=/home/pizzu01/ros2_humble/install/tm_description:/home/pizzu01/ros2_humble/install/tm_moveit_config:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint:/home/pizzu01/ros2_humble/install/my_ros2_package:/home/pizzu01/install/ros_tcp_endpoint:/home/pizzu01/install/my_ros2_package:/opt/ros/humble /usr/bin/cmake --build /home/pizzu01/ros2_humble/build/tm_moveit_config -- -j4 -l4

@@ -1,0 +1,281 @@
+[0.674s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.674s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fc050798340>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fc050921690>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fc050921690>>)
+[0.893s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.893s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.893s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.893s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.893s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.893s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.893s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pizzu01/ros2_humble'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extensions ['ignore', 'ignore_ament_install']
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'ignore'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'ignore_ament_install'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extensions ['colcon_pkg']
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'colcon_pkg'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extensions ['colcon_meta']
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'colcon_meta'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extensions ['ros']
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint) by extension 'ros'
+[0.916s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ROS-TCP-Endpoint' with type 'ros.ament_python' and name 'ros_tcp_endpoint'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_ros2_package) by extensions ['ignore', 'ignore_ament_install']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_ros2_package) by extension 'ignore'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_ros2_package) by extension 'ignore_ament_install'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_ros2_package) by extensions ['colcon_pkg']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_ros2_package) by extension 'colcon_pkg'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_ros2_package) by extensions ['colcon_meta']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_ros2_package) by extension 'colcon_meta'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_ros2_package) by extensions ['ros']
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_ros2_package) by extension 'ros'
+[0.917s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_ros2_package' with type 'ros.ament_python' and name 'my_ros2_package'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/tm900_moveit_control) by extensions ['ignore', 'ignore_ament_install']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/tm900_moveit_control) by extension 'ignore'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/tm900_moveit_control) by extension 'ignore_ament_install'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/tm900_moveit_control) by extensions ['colcon_pkg']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/tm900_moveit_control) by extension 'colcon_pkg'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/tm900_moveit_control) by extensions ['colcon_meta']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/tm900_moveit_control) by extension 'colcon_meta'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/tm900_moveit_control) by extensions ['ros']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/tm900_moveit_control) by extension 'ros'
+[0.919s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tm900_moveit_control' with type 'ros.ament_cmake' and name 'tm900_moveit_control'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/tm_description) by extensions ['ignore', 'ignore_ament_install']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/tm_description) by extension 'ignore'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/tm_description) by extension 'ignore_ament_install'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/tm_description) by extensions ['colcon_pkg']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/tm_description) by extension 'colcon_pkg'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/tm_description) by extensions ['colcon_meta']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/tm_description) by extension 'colcon_meta'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/tm_description) by extensions ['ros']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/tm_description) by extension 'ros'
+[0.920s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tm_description' with type 'ros.ament_cmake' and name 'tm_description'
+[0.920s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.921s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.921s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.921s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.921s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.947s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.947s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.950s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/pizzu01/ros2_humble/install
+[0.950s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/pizzu01/install
+[0.952s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 318 installed packages in /opt/ros/humble
+[0.966s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.036s] Level 5:colcon.colcon_core.verb:set package 'my_ros2_package' build argument 'cmake_args' from command line to 'None'
+[1.036s] Level 5:colcon.colcon_core.verb:set package 'my_ros2_package' build argument 'cmake_target' from command line to 'None'
+[1.036s] Level 5:colcon.colcon_core.verb:set package 'my_ros2_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.036s] Level 5:colcon.colcon_core.verb:set package 'my_ros2_package' build argument 'cmake_clean_cache' from command line to 'False'
+[1.036s] Level 5:colcon.colcon_core.verb:set package 'my_ros2_package' build argument 'cmake_clean_first' from command line to 'False'
+[1.036s] Level 5:colcon.colcon_core.verb:set package 'my_ros2_package' build argument 'cmake_force_configure' from command line to 'False'
+[1.036s] Level 5:colcon.colcon_core.verb:set package 'my_ros2_package' build argument 'ament_cmake_args' from command line to 'None'
+[1.036s] Level 5:colcon.colcon_core.verb:set package 'my_ros2_package' build argument 'catkin_cmake_args' from command line to 'None'
+[1.036s] Level 5:colcon.colcon_core.verb:set package 'my_ros2_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.037s] DEBUG:colcon.colcon_core.verb:Building package 'my_ros2_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pizzu01/ros2_humble/build/my_ros2_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pizzu01/ros2_humble/install/my_ros2_package', 'merge_install': False, 'path': '/home/pizzu01/ros2_humble/src/my_ros2_package', 'symlink_install': False, 'test_result_base': None}
+[1.037s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_args' from command line to 'None'
+[1.037s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_target' from command line to 'None'
+[1.037s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.037s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_clean_cache' from command line to 'False'
+[1.037s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_clean_first' from command line to 'False'
+[1.037s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_force_configure' from command line to 'False'
+[1.037s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'ament_cmake_args' from command line to 'None'
+[1.037s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'catkin_cmake_args' from command line to 'None'
+[1.037s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.038s] DEBUG:colcon.colcon_core.verb:Building package 'ros_tcp_endpoint' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pizzu01/ros2_humble/build/ros_tcp_endpoint', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pizzu01/ros2_humble/install/ros_tcp_endpoint', 'merge_install': False, 'path': '/home/pizzu01/ros2_humble/src/ROS-TCP-Endpoint', 'symlink_install': False, 'test_result_base': None}
+[1.038s] Level 5:colcon.colcon_core.verb:set package 'tm900_moveit_control' build argument 'cmake_args' from command line to 'None'
+[1.038s] Level 5:colcon.colcon_core.verb:set package 'tm900_moveit_control' build argument 'cmake_target' from command line to 'None'
+[1.038s] Level 5:colcon.colcon_core.verb:set package 'tm900_moveit_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.038s] Level 5:colcon.colcon_core.verb:set package 'tm900_moveit_control' build argument 'cmake_clean_cache' from command line to 'False'
+[1.038s] Level 5:colcon.colcon_core.verb:set package 'tm900_moveit_control' build argument 'cmake_clean_first' from command line to 'False'
+[1.038s] Level 5:colcon.colcon_core.verb:set package 'tm900_moveit_control' build argument 'cmake_force_configure' from command line to 'False'
+[1.038s] Level 5:colcon.colcon_core.verb:set package 'tm900_moveit_control' build argument 'ament_cmake_args' from command line to 'None'
+[1.038s] Level 5:colcon.colcon_core.verb:set package 'tm900_moveit_control' build argument 'catkin_cmake_args' from command line to 'None'
+[1.038s] Level 5:colcon.colcon_core.verb:set package 'tm900_moveit_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.038s] DEBUG:colcon.colcon_core.verb:Building package 'tm900_moveit_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pizzu01/ros2_humble/build/tm900_moveit_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pizzu01/ros2_humble/install/tm900_moveit_control', 'merge_install': False, 'path': '/home/pizzu01/ros2_humble/src/tm900_moveit_control', 'symlink_install': False, 'test_result_base': None}
+[1.039s] Level 5:colcon.colcon_core.verb:set package 'tm_description' build argument 'cmake_args' from command line to 'None'
+[1.039s] Level 5:colcon.colcon_core.verb:set package 'tm_description' build argument 'cmake_target' from command line to 'None'
+[1.039s] Level 5:colcon.colcon_core.verb:set package 'tm_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.039s] Level 5:colcon.colcon_core.verb:set package 'tm_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.039s] Level 5:colcon.colcon_core.verb:set package 'tm_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.039s] Level 5:colcon.colcon_core.verb:set package 'tm_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.039s] Level 5:colcon.colcon_core.verb:set package 'tm_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.039s] Level 5:colcon.colcon_core.verb:set package 'tm_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.039s] Level 5:colcon.colcon_core.verb:set package 'tm_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.039s] DEBUG:colcon.colcon_core.verb:Building package 'tm_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pizzu01/ros2_humble/build/tm_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pizzu01/ros2_humble/install/tm_description', 'merge_install': False, 'path': '/home/pizzu01/ros2_humble/src/tm_description', 'symlink_install': False, 'test_result_base': None}
+[1.040s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.042s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.042s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pizzu01/ros2_humble/src/my_ros2_package' with build type 'ament_python'
+[1.043s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_ros2_package', 'ament_prefix_path')
+[1.046s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pizzu01/ros2_humble/install/my_ros2_package/share/my_ros2_package/hook/ament_prefix_path.ps1'
+[1.048s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pizzu01/ros2_humble/install/my_ros2_package/share/my_ros2_package/hook/ament_prefix_path.dsv'
+[1.049s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pizzu01/ros2_humble/install/my_ros2_package/share/my_ros2_package/hook/ament_prefix_path.sh'
+[1.050s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.050s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.057s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pizzu01/ros2_humble/src/ROS-TCP-Endpoint' with build type 'ament_python'
+[1.057s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_tcp_endpoint', 'ament_prefix_path')
+[1.058s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pizzu01/ros2_humble/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.ps1'
+[1.060s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pizzu01/ros2_humble/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.dsv'
+[1.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pizzu01/ros2_humble/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.sh'
+[1.062s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.062s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.068s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pizzu01/ros2_humble/src/tm900_moveit_control' with build type 'ament_cmake'
+[1.069s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pizzu01/ros2_humble/src/tm900_moveit_control'
+[1.070s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.071s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.078s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pizzu01/ros2_humble/src/tm_description' with build type 'ament_cmake'
+[1.078s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pizzu01/ros2_humble/src/tm_description'
+[1.079s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.079s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.510s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pizzu01/ros2_humble/src/my_ros2_package'
+[1.511s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.511s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.070s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pizzu01/ros2_humble/src/ROS-TCP-Endpoint'
+[2.071s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.071s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.088s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pizzu01/ros2_humble/build/tm900_moveit_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint:/home/pizzu01/ros2_humble/install/my_ros2_package:/home/pizzu01/install/ros_tcp_endpoint:/home/pizzu01/install/my_ros2_package:/opt/ros/humble /usr/bin/cmake /home/pizzu01/ros2_humble/src/tm900_moveit_control -DCMAKE_INSTALL_PREFIX=/home/pizzu01/ros2_humble/install/tm900_moveit_control
+[2.119s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pizzu01/ros2_humble/build/tm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint:/home/pizzu01/ros2_humble/install/my_ros2_package:/home/pizzu01/install/ros_tcp_endpoint:/home/pizzu01/install/my_ros2_package:/opt/ros/humble /usr/bin/cmake --build /home/pizzu01/ros2_humble/build/tm_description -- -j4 -l4
+[2.184s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pizzu01/ros2_humble/build/tm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint:/home/pizzu01/ros2_humble/install/my_ros2_package:/home/pizzu01/install/ros_tcp_endpoint:/home/pizzu01/install/my_ros2_package:/opt/ros/humble /usr/bin/cmake --build /home/pizzu01/ros2_humble/build/tm_description -- -j4 -l4
+[2.200s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pizzu01/ros2_humble/build/tm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint:/home/pizzu01/ros2_humble/install/my_ros2_package:/home/pizzu01/install/ros_tcp_endpoint:/home/pizzu01/install/my_ros2_package:/opt/ros/humble /usr/bin/cmake --install /home/pizzu01/ros2_humble/build/tm_description
+[2.253s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tm_description)
+[2.258s] Level 1:colcon.colcon_core.environment:checking '/home/pizzu01/ros2_humble/install/tm_description' for CMake module files
+[2.259s] Level 1:colcon.colcon_core.environment:checking '/home/pizzu01/ros2_humble/install/tm_description' for CMake config files
+[2.260s] Level 1:colcon.colcon_core.shell:create_environment_hook('tm_description', 'cmake_prefix_path')
+[2.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pizzu01/ros2_humble/install/tm_description/share/tm_description/hook/cmake_prefix_path.ps1'
+[2.261s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pizzu01/ros2_humble/install/tm_description/share/tm_description/hook/cmake_prefix_path.dsv'
+[2.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pizzu01/ros2_humble/install/tm_description/share/tm_description/hook/cmake_prefix_path.sh'
+[2.264s] Level 1:colcon.colcon_core.environment:checking '/home/pizzu01/ros2_humble/install/tm_description/bin'
+[2.264s] Level 1:colcon.colcon_core.environment:checking '/home/pizzu01/ros2_humble/install/tm_description/lib/pkgconfig/tm_description.pc'
+[2.265s] Level 1:colcon.colcon_core.environment:checking '/home/pizzu01/ros2_humble/install/tm_description/lib/python3.10/site-packages'
+[2.265s] Level 1:colcon.colcon_core.environment:checking '/home/pizzu01/ros2_humble/install/tm_description/bin'
+[2.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/pizzu01/ros2_humble/install/tm_description/share/tm_description/package.ps1'
+[2.274s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pizzu01/ros2_humble/install/tm_description/share/tm_description/package.dsv'
+[2.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/pizzu01/ros2_humble/install/tm_description/share/tm_description/package.sh'
+[2.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/pizzu01/ros2_humble/install/tm_description/share/tm_description/package.bash'
+[2.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/pizzu01/ros2_humble/install/tm_description/share/tm_description/package.zsh'
+[2.282s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pizzu01/ros2_humble/install/tm_description/share/colcon-core/packages/tm_description)
+[2.283s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tm_description)
+[2.286s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pizzu01/ros2_humble/build/tm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint:/home/pizzu01/ros2_humble/install/my_ros2_package:/home/pizzu01/install/ros_tcp_endpoint:/home/pizzu01/install/my_ros2_package:/opt/ros/humble /usr/bin/cmake --install /home/pizzu01/ros2_humble/build/tm_description
+[2.287s] Level 1:colcon.colcon_core.environment:checking '/home/pizzu01/ros2_humble/install/tm_description' for CMake module files
+[2.288s] Level 1:colcon.colcon_core.environment:checking '/home/pizzu01/ros2_humble/install/tm_description' for CMake config files
+[2.288s] Level 1:colcon.colcon_core.shell:create_environment_hook('tm_description', 'cmake_prefix_path')
+[2.289s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pizzu01/ros2_humble/install/tm_description/share/tm_description/hook/cmake_prefix_path.ps1'
+[2.290s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pizzu01/ros2_humble/install/tm_description/share/tm_description/hook/cmake_prefix_path.dsv'
+[2.292s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pizzu01/ros2_humble/install/tm_description/share/tm_description/hook/cmake_prefix_path.sh'
+[2.293s] Level 1:colcon.colcon_core.environment:checking '/home/pizzu01/ros2_humble/install/tm_description/bin'
+[2.293s] Level 1:colcon.colcon_core.environment:checking '/home/pizzu01/ros2_humble/install/tm_description/lib/pkgconfig/tm_description.pc'
+[2.294s] Level 1:colcon.colcon_core.environment:checking '/home/pizzu01/ros2_humble/install/tm_description/lib/python3.10/site-packages'
+[2.294s] Level 1:colcon.colcon_core.environment:checking '/home/pizzu01/ros2_humble/install/tm_description/bin'
+[2.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/pizzu01/ros2_humble/install/tm_description/share/tm_description/package.ps1'
+[2.296s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pizzu01/ros2_humble/install/tm_description/share/tm_description/package.dsv'
+[2.297s] INFO:colcon.colcon_core.shell:Creating package script '/home/pizzu01/ros2_humble/install/tm_description/share/tm_description/package.sh'
+[2.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/pizzu01/ros2_humble/install/tm_description/share/tm_description/package.bash'
+[2.299s] INFO:colcon.colcon_core.shell:Creating package script '/home/pizzu01/ros2_humble/install/tm_description/share/tm_description/package.zsh'
+[2.300s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pizzu01/ros2_humble/install/tm_description/share/colcon-core/packages/tm_description)
+[2.895s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pizzu01/ros2_humble/src/ROS-TCP-Endpoint': PYTHONPATH=/home/pizzu01/ros2_humble/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/pizzu01/ros2_humble/build/ros_tcp_endpoint/build install --record /home/pizzu01/ros2_humble/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed install_data
+[2.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pizzu01/ros2_humble/src/my_ros2_package': PYTHONPATH=/home/pizzu01/ros2_humble/build/my_ros2_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pizzu01/ros2_humble/install/my_ros2_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_ros2_package build --build-base /home/pizzu01/ros2_humble/build/my_ros2_package/build install --record /home/pizzu01/ros2_humble/build/my_ros2_package/install.log --single-version-externally-managed install_data
+[3.452s] Level 1:colcon.colcon_core.environment:checking '/home/pizzu01/ros2_humble/install/ros_tcp_endpoint' for CMake module files
+[3.454s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pizzu01/ros2_humble/src/ROS-TCP-Endpoint' returned '0': PYTHONPATH=/home/pizzu01/ros2_humble/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/pizzu01/ros2_humble/build/ros_tcp_endpoint/build install --record /home/pizzu01/ros2_humble/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed install_data
+[3.454s] Level 1:colcon.colcon_core.environment:checking '/home/pizzu01/ros2_humble/install/ros_tcp_endpoint' for CMake config files
+[3.455s] Level 1:colcon.colcon_core.environment:checking '/home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib'
+[3.455s] Level 1:colcon.colcon_core.environment:checking '/home/pizzu01/ros2_humble/install/ros_tcp_endpoint/bin'
+[3.456s] Level 1:colcon.colcon_core.environment:checking '/home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/pkgconfig/ros_tcp_endpoint.pc'
+[3.456s] Level 1:colcon.colcon_core.environment:checking '/home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/python3.10/site-packages'
+[3.456s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_tcp_endpoint', 'pythonpath')
+[3.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pizzu01/ros2_humble/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.ps1'
+[3.458s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pizzu01/ros2_humble/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.dsv'
+[3.459s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pizzu01/ros2_humble/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.sh'
+[3.460s] Level 1:colcon.colcon_core.environment:checking '/home/pizzu01/ros2_humble/install/ros_tcp_endpoint/bin'
+[3.460s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_tcp_endpoint)
+[3.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/pizzu01/ros2_humble/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.ps1'
+[3.462s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pizzu01/ros2_humble/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.dsv'
+[3.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/pizzu01/ros2_humble/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.sh'
+[3.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/pizzu01/ros2_humble/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.bash'
+[3.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/pizzu01/ros2_humble/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.zsh'
+[3.467s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pizzu01/ros2_humble/install/ros_tcp_endpoint/share/colcon-core/packages/ros_tcp_endpoint)
+[3.526s] Level 1:colcon.colcon_core.environment:checking '/home/pizzu01/ros2_humble/install/my_ros2_package' for CMake module files
+[3.528s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pizzu01/ros2_humble/src/my_ros2_package' returned '0': PYTHONPATH=/home/pizzu01/ros2_humble/build/my_ros2_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pizzu01/ros2_humble/install/my_ros2_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_ros2_package build --build-base /home/pizzu01/ros2_humble/build/my_ros2_package/build install --record /home/pizzu01/ros2_humble/build/my_ros2_package/install.log --single-version-externally-managed install_data
+[3.528s] Level 1:colcon.colcon_core.environment:checking '/home/pizzu01/ros2_humble/install/my_ros2_package' for CMake config files
+[3.529s] Level 1:colcon.colcon_core.environment:checking '/home/pizzu01/ros2_humble/install/my_ros2_package/lib'
+[3.530s] Level 1:colcon.colcon_core.environment:checking '/home/pizzu01/ros2_humble/install/my_ros2_package/bin'
+[3.530s] Level 1:colcon.colcon_core.environment:checking '/home/pizzu01/ros2_humble/install/my_ros2_package/lib/pkgconfig/my_ros2_package.pc'
+[3.530s] Level 1:colcon.colcon_core.environment:checking '/home/pizzu01/ros2_humble/install/my_ros2_package/lib/python3.10/site-packages'
+[3.531s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_ros2_package', 'pythonpath')
+[3.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pizzu01/ros2_humble/install/my_ros2_package/share/my_ros2_package/hook/pythonpath.ps1'
+[3.532s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pizzu01/ros2_humble/install/my_ros2_package/share/my_ros2_package/hook/pythonpath.dsv'
+[3.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pizzu01/ros2_humble/install/my_ros2_package/share/my_ros2_package/hook/pythonpath.sh'
+[3.534s] Level 1:colcon.colcon_core.environment:checking '/home/pizzu01/ros2_humble/install/my_ros2_package/bin'
+[3.534s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_ros2_package)
+[3.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/pizzu01/ros2_humble/install/my_ros2_package/share/my_ros2_package/package.ps1'
+[3.536s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pizzu01/ros2_humble/install/my_ros2_package/share/my_ros2_package/package.dsv'
+[3.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/pizzu01/ros2_humble/install/my_ros2_package/share/my_ros2_package/package.sh'
+[3.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/pizzu01/ros2_humble/install/my_ros2_package/share/my_ros2_package/package.bash'
+[3.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/pizzu01/ros2_humble/install/my_ros2_package/share/my_ros2_package/package.zsh'
+[3.540s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pizzu01/ros2_humble/install/my_ros2_package/share/colcon-core/packages/my_ros2_package)
+[22.107s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pizzu01/ros2_humble/build/tm900_moveit_control' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint:/home/pizzu01/ros2_humble/install/my_ros2_package:/home/pizzu01/install/ros_tcp_endpoint:/home/pizzu01/install/my_ros2_package:/opt/ros/humble /usr/bin/cmake /home/pizzu01/ros2_humble/src/tm900_moveit_control -DCMAKE_INSTALL_PREFIX=/home/pizzu01/ros2_humble/install/tm900_moveit_control
+[22.122s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tm900_moveit_control)
+[22.123s] Level 1:colcon.colcon_core.environment:checking '/home/pizzu01/ros2_humble/install/tm900_moveit_control' for CMake module files
+[22.123s] Level 1:colcon.colcon_core.environment:checking '/home/pizzu01/ros2_humble/install/tm900_moveit_control' for CMake config files
+[22.124s] Level 1:colcon.colcon_core.environment:checking '/home/pizzu01/ros2_humble/install/tm900_moveit_control/bin'
+[22.124s] Level 1:colcon.colcon_core.environment:checking '/home/pizzu01/ros2_humble/install/tm900_moveit_control/lib/pkgconfig/tm900_moveit_control.pc'
+[22.124s] Level 1:colcon.colcon_core.environment:checking '/home/pizzu01/ros2_humble/install/tm900_moveit_control/lib/python3.10/site-packages'
+[22.124s] Level 1:colcon.colcon_core.environment:checking '/home/pizzu01/ros2_humble/install/tm900_moveit_control/bin'
+[22.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/pizzu01/ros2_humble/install/tm900_moveit_control/share/tm900_moveit_control/package.ps1'
+[22.125s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pizzu01/ros2_humble/install/tm900_moveit_control/share/tm900_moveit_control/package.dsv'
+[22.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/pizzu01/ros2_humble/install/tm900_moveit_control/share/tm900_moveit_control/package.sh'
+[22.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/pizzu01/ros2_humble/install/tm900_moveit_control/share/tm900_moveit_control/package.bash'
+[22.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/pizzu01/ros2_humble/install/tm900_moveit_control/share/tm900_moveit_control/package.zsh'
+[22.127s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pizzu01/ros2_humble/install/tm900_moveit_control/share/colcon-core/packages/tm900_moveit_control)
+[22.138s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[22.138s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[22.138s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[22.138s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[22.233s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[22.233s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[22.233s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[22.234s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[22.234s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[22.234s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[22.234s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pizzu01/ros2_humble/install/local_setup.ps1'
+[22.235s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pizzu01/ros2_humble/install/_local_setup_util_ps1.py'
+[22.237s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pizzu01/ros2_humble/install/setup.ps1'
+[22.238s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pizzu01/ros2_humble/install/local_setup.sh'
+[22.239s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pizzu01/ros2_humble/install/_local_setup_util_sh.py'
+[22.240s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pizzu01/ros2_humble/install/setup.sh'
+[22.242s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pizzu01/ros2_humble/install/local_setup.bash'
+[22.243s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pizzu01/ros2_humble/install/setup.bash'
+[22.244s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pizzu01/ros2_humble/install/local_setup.zsh'
+[22.245s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pizzu01/ros2_humble/install/setup.zsh'

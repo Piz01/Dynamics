@@ -1,0 +1,42 @@
+[1.020s] Invoking command in '/home/pizzu01/ros2_humble/build/tm900_moveit_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint:/home/pizzu01/ros2_humble/install/my_ros2_package:/home/pizzu01/install/ros_tcp_endpoint:/home/pizzu01/install/my_ros2_package:/opt/ros/humble /usr/bin/cmake /home/pizzu01/ros2_humble/src/tm900_moveit_control -DCMAKE_INSTALL_PREFIX=/home/pizzu01/ros2_humble/install/tm900_moveit_control
+[1.066s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.324s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.677s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.684s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.697s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.718s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.740s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.828s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.828s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.851s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.952s] -- Found moveit_ros_planning_interface: 2.5.7 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[1.966s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[2.277s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[6.522s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[6.546s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[6.584s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[11.571s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[11.665s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[15.853s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[15.918s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[15.968s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[20.105s] [31mCMake Error at CMakeLists.txt:12 (find_package):
+[20.105s]   By not providing "Findmoveit_commander.cmake" in CMAKE_MODULE_PATH this
+[20.105s]   project has asked CMake to find a package configuration file provided by
+[20.105s]   "moveit_commander", but CMake did not find one.
+[20.106s] 
+[20.106s]   Could not find a package configuration file provided by "moveit_commander"
+[20.106s]   with any of the following names:
+[20.106s] 
+[20.106s]     moveit_commanderConfig.cmake
+[20.106s]     moveit_commander-config.cmake
+[20.106s] 
+[20.107s]   Add the installation prefix of "moveit_commander" to CMAKE_PREFIX_PATH or
+[20.107s]   set "moveit_commander_DIR" to a directory containing one of the above
+[20.107s]   files.  If "moveit_commander" provides a separate development package or
+[20.107s]   SDK, be sure it has been installed.
+[20.107s] 
+[20.107s] [0m
+[20.107s] -- Configuring incomplete, errors occurred!
+[20.108s] See also "/home/pizzu01/ros2_humble/build/tm900_moveit_control/CMakeFiles/CMakeOutput.log".
+[20.120s] Invoked command in '/home/pizzu01/ros2_humble/build/tm900_moveit_control' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint:/home/pizzu01/ros2_humble/install/my_ros2_package:/home/pizzu01/install/ros_tcp_endpoint:/home/pizzu01/install/my_ros2_package:/opt/ros/humble /usr/bin/cmake /home/pizzu01/ros2_humble/src/tm900_moveit_control -DCMAKE_INSTALL_PREFIX=/home/pizzu01/ros2_humble/install/tm900_moveit_control

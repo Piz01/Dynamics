@@ -1,0 +1,4 @@
+Invoking command in '/home/pizzu01/ros2_humble/build/tm_description': /usr/bin/cmake --build /home/pizzu01/ros2_humble/build/tm_description -- -j4 -l4
+Invoked command in '/home/pizzu01/ros2_humble/build/tm_description' returned '0': /usr/bin/cmake --build /home/pizzu01/ros2_humble/build/tm_description -- -j4 -l4
+Invoking command in '/home/pizzu01/ros2_humble/build/tm_description': /usr/bin/cmake --install /home/pizzu01/ros2_humble/build/tm_description
+Invoked command in '/home/pizzu01/ros2_humble/build/tm_description' returned '0': /usr/bin/cmake --install /home/pizzu01/ros2_humble/build/tm_description

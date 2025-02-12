@@ -1,0 +1,66 @@
+[0.187s] Invoking command in '/home/pizzu01/ros2_humble/build/tm_moveit_config': CMAKE_PREFIX_PATH=/home/pizzu01/ros2_humble/install/tm_description:/home/pizzu01/ros2_humble/install/tm_moveit_config:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint:/home/pizzu01/ros2_humble/install/my_ros2_package:/home/pizzu01/install/ros_tcp_endpoint:/home/pizzu01/install/my_ros2_package:/opt/ros/humble /usr/bin/cmake --build /home/pizzu01/ros2_humble/build/tm_moveit_config -- -j4 -l4
+[0.297s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.744s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[0.753s] -- Found moveit_ros_planning_interface: 2.5.7 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[0.822s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[1.323s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.337s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.381s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.439s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.509s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.132s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[3.559s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[3.669s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.679s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[3.748s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.861s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[3.922s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[6.327s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[6.387s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[8.693s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[8.736s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[8.773s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[8.909s] -- Configuring done
+[8.927s] -- Generating done
+[8.932s] -- Build files have been written to: /home/pizzu01/ros2_humble/build/tm_moveit_config
+[8.965s] Invoked command in '/home/pizzu01/ros2_humble/build/tm_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/pizzu01/ros2_humble/install/tm_description:/home/pizzu01/ros2_humble/install/tm_moveit_config:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint:/home/pizzu01/ros2_humble/install/my_ros2_package:/home/pizzu01/install/ros_tcp_endpoint:/home/pizzu01/install/my_ros2_package:/opt/ros/humble /usr/bin/cmake --build /home/pizzu01/ros2_humble/build/tm_moveit_config -- -j4 -l4
+[8.967s] Invoking command in '/home/pizzu01/ros2_humble/build/tm_moveit_config': CMAKE_PREFIX_PATH=/home/pizzu01/ros2_humble/install/tm_description:/home/pizzu01/ros2_humble/install/tm_moveit_config:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint:/home/pizzu01/ros2_humble/install/my_ros2_package:/home/pizzu01/install/ros_tcp_endpoint:/home/pizzu01/install/my_ros2_package:/opt/ros/humble /usr/bin/cmake --install /home/pizzu01/ros2_humble/build/tm_moveit_config
+[8.975s] -- Install configuration: ""
+[8.975s] -- Installing: /home/pizzu01/ros2_humble/install/tm_moveit_config/lib/tm_moveit_config/move_robot.py
+[8.975s] -- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/ament_index/resource_index/package_run_dependencies/tm_moveit_config
+[8.975s] -- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/ament_index/resource_index/parent_prefix_path/tm_moveit_config
+[8.976s] -- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/environment/ament_prefix_path.sh
+[8.976s] -- Installing: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/environment/ament_prefix_path.dsv
+[8.977s] -- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/environment/path.sh
+[8.977s] -- Installing: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/environment/path.dsv
+[8.978s] -- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/local_setup.bash
+[8.978s] -- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/local_setup.sh
+[8.979s] -- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/local_setup.zsh
+[8.979s] -- Installing: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/local_setup.dsv
+[8.979s] -- Installing: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/package.dsv
+[8.979s] -- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/ament_index/resource_index/packages/tm_moveit_config
+[8.979s] -- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/cmake/tm_moveit_configConfig.cmake
+[8.979s] -- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/cmake/tm_moveit_configConfig-version.cmake
+[8.979s] -- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/package.xml
+[8.980s] -- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/launch
+[8.980s] -- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/launch/warehouse_db.launch.py
+[8.980s] -- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/launch/spawn_controllers.launch.py
+[8.980s] -- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/launch/moveit_rviz.launch.py
+[8.980s] -- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/launch/static_virtual_joint_tfs.launch.py
+[8.980s] -- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/launch/rsp.launch.py
+[8.980s] -- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/launch/demo.launch.py
+[8.980s] -- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/launch/setup_assistant.launch.py
+[8.980s] -- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/launch/move_group.launch.py
+[8.981s] -- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/config
+[8.982s] -- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/config/tm900.srdf
+[8.982s] -- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/config/kinematics.yaml
+[8.982s] -- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/config/moveit_controllers.yaml
+[8.982s] -- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/config/moveit.rviz
+[8.983s] -- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/config/tm900.ros2_control.xacro
+[8.983s] -- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/config/pilz_cartesian_limits.yaml
+[8.983s] -- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/config/ros2_controllers.yaml
+[8.983s] -- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/config/initial_positions.yaml
+[8.984s] -- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/config/tm900.urdf.xacro
+[8.984s] -- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/config/joint_limits.yaml
+[8.984s] -- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/.setup_assistant
+[8.986s] Invoked command in '/home/pizzu01/ros2_humble/build/tm_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/pizzu01/ros2_humble/install/tm_description:/home/pizzu01/ros2_humble/install/tm_moveit_config:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint:/home/pizzu01/ros2_humble/install/my_ros2_package:/home/pizzu01/install/ros_tcp_endpoint:/home/pizzu01/install/my_ros2_package:/opt/ros/humble /usr/bin/cmake --install /home/pizzu01/ros2_humble/build/tm_moveit_config

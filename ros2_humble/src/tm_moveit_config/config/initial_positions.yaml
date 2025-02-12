@@ -1,0 +1,8 @@
+# Default initial positions for tm900's ros2_control fake system
+
+initial_positions:
+  elbow_1_joint: 0
+  shoulder_1_joint: 0
+  shoulder_2_joint: 0
+  wrist_1_joint: 0
+  wrist_2_joint: 0

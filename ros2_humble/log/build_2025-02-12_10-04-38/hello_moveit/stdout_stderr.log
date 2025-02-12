@@ -1,0 +1,11 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o[0m
+[01m[K/home/pizzu01/ros2_humble/src/hello_moveit/src/hello_moveit.cpp:7:38:[m[K [01;31m[Kerror: [m[Kmissing terminating > character
+    7 | #include <tf2/LinearMath/Quaternion.h
+      |                                      [01;31m[K^[m[K
+[01m[K/home/pizzu01/ros2_humble/src/hello_moveit/src/hello_moveit.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/pizzu01/ros2_humble/src/hello_moveit/src/hello_moveit.cpp:48:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   48 |   [01;31m[K}[m[K
+      |   [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/hello_moveit.dir/build.make:76: CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hello_moveit.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

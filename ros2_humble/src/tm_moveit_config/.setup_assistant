@@ -1,0 +1,27 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: tm_description
+    relative_path: urdf/tm900_robot_moveit.urdf
+  srdf:
+    relative_path: config/tm900.srdf
+  package_settings:
+    author_name: Pizzuto Andrea
+    author_email: andrea.pizzuto@gmail.com
+    generated_timestamp: 1739183160
+  control_xacro:
+    command:
+      - position
+      - velocity
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+      - velocity
+    state:
+      - position
+      - velocity

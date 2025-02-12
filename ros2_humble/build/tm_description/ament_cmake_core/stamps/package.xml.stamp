@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>tm_description</name>
+  <version>0.1.0</version>
+  <description>URDF description of TM900 Robot</description>
+  <maintainer email="s1122741@studenti.univpm.it">Pizzuto Andrea</maintainer>
+  <license>Apache-2.0</license>
+  
+  <depend>ros2launch</depend>
+  <depend>xacro</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
