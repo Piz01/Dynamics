@@ -6,8 +6,8 @@ Questo progetto si propone di sviluppare e testare un sistema robotico per disas
 ## Indice
 - [Fasi di Sviluppo](#fasi-di-sviluppo)
 - [Requisiti](#requisiti)
-- [Installazione](#installazione)
-- [Utilizzo](#utilizzo)
+- [### 🔌 Plugin Necessari](# 🔌 Plugin Necessari)
+
 - [Contributi](#contributi)
 - [Licenza](#licenza)
 
