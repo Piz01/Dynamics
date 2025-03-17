@@ -1,0 +1,23 @@
+[2.819s] Invoking command in '/home/pizzu01/ros2_humble/src/my_ros2_package': PYTHONPATH=/home/pizzu01/ros2_humble/build/my_ros2_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pizzu01/ros2_humble/install/my_ros2_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_ros2_package build --build-base /home/pizzu01/ros2_humble/build/my_ros2_package/build install --record /home/pizzu01/ros2_humble/build/my_ros2_package/install.log --single-version-externally-managed install_data
+[3.692s] running egg_info
+[3.696s] writing ../../build/my_ros2_package/my_ros2_package.egg-info/PKG-INFO
+[3.696s] writing dependency_links to ../../build/my_ros2_package/my_ros2_package.egg-info/dependency_links.txt
+[3.696s] writing entry points to ../../build/my_ros2_package/my_ros2_package.egg-info/entry_points.txt
+[3.697s] writing requirements to ../../build/my_ros2_package/my_ros2_package.egg-info/requires.txt
+[3.697s] writing top-level names to ../../build/my_ros2_package/my_ros2_package.egg-info/top_level.txt
+[3.705s] reading manifest file '../../build/my_ros2_package/my_ros2_package.egg-info/SOURCES.txt'
+[3.707s] writing manifest file '../../build/my_ros2_package/my_ros2_package.egg-info/SOURCES.txt'
+[3.708s] running build
+[3.708s] running build_py
+[3.708s] running install
+[3.709s] running install_lib
+[3.711s] running install_data
+[3.712s] running install_egg_info
+[3.718s] removing '/home/pizzu01/ros2_humble/install/my_ros2_package/lib/python3.10/site-packages/my_ros2_package-0.0.0-py3.10.egg-info' (and everything under it)
+[3.719s] Copying ../../build/my_ros2_package/my_ros2_package.egg-info to /home/pizzu01/ros2_humble/install/my_ros2_package/lib/python3.10/site-packages/my_ros2_package-0.0.0-py3.10.egg-info
+[3.721s] running install_scripts
+[3.815s] Installing moveit_controller script to /home/pizzu01/ros2_humble/install/my_ros2_package/lib/my_ros2_package
+[3.815s] Installing object_position_node script to /home/pizzu01/ros2_humble/install/my_ros2_package/lib/my_ros2_package
+[3.816s] Installing pose_listener script to /home/pizzu01/ros2_humble/install/my_ros2_package/lib/my_ros2_package
+[3.818s] writing list of installed files to '/home/pizzu01/ros2_humble/build/my_ros2_package/install.log'
+[3.930s] Invoked command in '/home/pizzu01/ros2_humble/src/my_ros2_package' returned '0': PYTHONPATH=/home/pizzu01/ros2_humble/build/my_ros2_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pizzu01/ros2_humble/install/my_ros2_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_ros2_package build --build-base /home/pizzu01/ros2_humble/build/my_ros2_package/build install --record /home/pizzu01/ros2_humble/build/my_ros2_package/install.log --single-version-externally-managed install_data

@@ -1,0 +1,8 @@
+[0.552s] Invoking command in '/home/pizzu01/ros2_humble/build/gazebo_ros2_control_demos': CMAKE_PREFIX_PATH=/home/pizzu01/ros2_humble/install/gazebo_ros2_control:/home/pizzu01/ros2_humble/install/tm_moveit_config:/home/pizzu01/ros2_humble/install/moveit_config_tm5_900:/home/pizzu01/ros2_humble/install/tm_description:/home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos:/home/pizzu01/install/tm_moveit_config:/home/pizzu01/install/moveit_config_tm5_900:/home/pizzu01/install/tm_description:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint:/home/pizzu01/ros2_humble/install/my_ros2_package:/home/pizzu01/install/ros_tcp_endpoint:/home/pizzu01/install/my_ros2_package:/opt/ros/humble /usr/bin/cmake --build /home/pizzu01/ros2_humble/build/gazebo_ros2_control_demos -- -j4 -l4
+[0.669s] [ 14%] Built target example_position
+[0.669s] [ 28%] Built target example_effort
+[0.681s] [ 42%] Built target example_gripper
+[0.683s] [ 57%] Built target example_velocity
+[0.716s] [ 78%] Built target example_position_pid
+[0.716s] [ 85%] Built target example_diff_drive
+[0.721s] [100%] Built target example_tricycle_drive

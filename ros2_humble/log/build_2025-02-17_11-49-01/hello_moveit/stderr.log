@@ -1,0 +1,53 @@
+[01m[K/home/pizzu01/ros2_humble/src/hello_moveit/src/hello_moveit.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/pizzu01/ros2_humble/src/hello_moveit/src/hello_moveit.cpp:19:27:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::declare_parameters(const char [1], <brace-enclosed initializer list>)[m[K’
+   19 |   [01;31m[Knode->declare_parameters("", {[m[K
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+   20 | [01;31m[K    {"manipulator.kinematics_solver", rclcpp::ParameterValue("kdl_kinematics_plugin/KDLKinematicsPlugin")},[m[K
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   21 | [01;31m[K      {"manipulator.kinematics_solver_search_resolution", rclcpp::ParameterValue(0.005)},[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   22 | [01;31m[K      {"manipulator.kinematics_solver_timeout", rclcpp::ParameterValue(0.1)}[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   23 | [01;31m[K    })[m[K;
+      |     [01;31m[K~~[m[K                     
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/pizzu01/ros2_humble/src/hello_moveit/src/hello_moveit.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:478:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> std::vector<BufferT> rclcpp::Node::declare_parameters(const string&, const std::map<std::__cxx11::basic_string<char>, ParameterT>&, bool)[m[K’
+  478 |   [01;36m[Kdeclare_parameters[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:478:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/pizzu01/ros2_humble/src/hello_moveit/src/hello_moveit.cpp:19:27:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+   19 |   [01;36m[Knode->declare_parameters("", {[m[K
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+   20 | [01;36m[K    {"manipulator.kinematics_solver", rclcpp::ParameterValue("kdl_kinematics_plugin/KDLKinematicsPlugin")},[m[K
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   21 | [01;36m[K      {"manipulator.kinematics_solver_search_resolution", rclcpp::ParameterValue(0.005)},[m[K
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   22 | [01;36m[K      {"manipulator.kinematics_solver_timeout", rclcpp::ParameterValue(0.1)}[m[K
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   23 | [01;36m[K    })[m[K;
+      |     [01;36m[K~~[m[K                     
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/pizzu01/ros2_humble/src/hello_moveit/src/hello_moveit.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:492:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> std::vector<BufferT> rclcpp::Node::declare_parameters(const string&, const std::map<std::__cxx11::basic_string<char>, std::pair<ParameterT, rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> > > >&, bool)[m[K’
+  492 |   [01;36m[Kdeclare_parameters[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:492:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/pizzu01/ros2_humble/src/hello_moveit/src/hello_moveit.cpp:19:27:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+   19 |   [01;36m[Knode->declare_parameters("", {[m[K
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+   20 | [01;36m[K    {"manipulator.kinematics_solver", rclcpp::ParameterValue("kdl_kinematics_plugin/KDLKinematicsPlugin")},[m[K
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   21 | [01;36m[K      {"manipulator.kinematics_solver_search_resolution", rclcpp::ParameterValue(0.005)},[m[K
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   22 | [01;36m[K      {"manipulator.kinematics_solver_timeout", rclcpp::ParameterValue(0.1)}[m[K
+      |       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   23 | [01;36m[K    })[m[K;
+      |     [01;36m[K~~[m[K                     
+gmake[2]: *** [CMakeFiles/hello_moveit.dir/build.make:76: CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hello_moveit.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

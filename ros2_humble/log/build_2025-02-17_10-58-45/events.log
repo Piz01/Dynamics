@@ -1,0 +1,556 @@
+[0.000000] (-) TimerEvent: {}
+[0.001950] (hello_moveit) JobQueued: {'identifier': 'hello_moveit', 'dependencies': OrderedDict()}
+[0.002523] (my_ros2_package) JobQueued: {'identifier': 'my_ros2_package', 'dependencies': OrderedDict()}
+[0.002866] (ros_tcp_endpoint) JobQueued: {'identifier': 'ros_tcp_endpoint', 'dependencies': OrderedDict()}
+[0.002967] (tm_description) JobQueued: {'identifier': 'tm_description', 'dependencies': OrderedDict()}
+[0.003037] (tm_moveit_config) JobQueued: {'identifier': 'tm_moveit_config', 'dependencies': OrderedDict([('tm_description', '/home/pizzu01/ros2_humble/install/tm_description')])}
+[0.003120] (tm_description) JobStarted: {'identifier': 'tm_description'}
+[0.024484] (hello_moveit) JobStarted: {'identifier': 'hello_moveit'}
+[0.044993] (my_ros2_package) JobStarted: {'identifier': 'my_ros2_package'}
+[0.077308] (ros_tcp_endpoint) JobStarted: {'identifier': 'ros_tcp_endpoint'}
+[0.099357] (-) TimerEvent: {}
+[0.110719] (tm_description) JobProgress: {'identifier': 'tm_description', 'progress': 'cmake'}
+[0.110819] (tm_description) JobProgress: {'identifier': 'tm_description', 'progress': 'build'}
+[0.110890] (tm_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pizzu01/ros2_humble/build/tm_description', '--', '-j4', '-l4'], 'cwd': '/home/pizzu01/ros2_humble/build/tm_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pizzu01'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pizzu01'), ('OLDPWD', '/home/pizzu01/ros2_humble/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pizzu01/ros2_humble/install:/home/pizzu01/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pizzu01'), ('NAME', 'DESKTOP-QESEN07'), ('WSL_INTEROP', '/run/WSL/5187_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/pizzu01/ros2_humble/src/tm_description:/home/pizzu01/ros2_humble/install/tm_description/share/tm_description'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10021.0_x64__79rhkp1fndgsc:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Intel/iCLS Client/:/mnt/c/Program Files/Intel/iCLS Client/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Program Files/Java/jdk-17.0.1/bin:/mnt/c/TwinCAT/Common32:/mnt/c/TwinCAT/Common64:/mnt/c/Strawberry/c/bin:/mnt/c/Strawberry/perl/site/bin:/mnt/c/Strawberry/perl/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/lachiara/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/lachiara/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/lachiara/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/lachiara/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/lachiara/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/lachiara/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/lachiara/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/snap/bin:/usr/local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pizzu01/ros2_humble/install/tm_moveit_config:/home/pizzu01/ros2_humble/install/tm_description:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint:/home/pizzu01/ros2_humble/install/my_ros2_package:/home/pizzu01/ros2_humble/install/hello_moveit:/home/pizzu01/install/ros_tcp_endpoint:/home/pizzu01/install/my_ros2_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pizzu01/ros2_humble/build/tm_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/python3.10/site-packages:/home/pizzu01/ros2_humble/install/my_ros2_package/lib/python3.10/site-packages:/home/pizzu01/install/ros_tcp_endpoint/lib/python3.10/site-packages:/home/pizzu01/install/my_ros2_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/pizzu01/ros2_humble/install/tm_moveit_config:/home/pizzu01/ros2_humble/install/tm_description:/home/pizzu01/ros2_humble/install/hello_moveit:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint:/home/pizzu01/ros2_humble/install/my_ros2_package:/home/pizzu01/install/ros_tcp_endpoint:/home/pizzu01/install/my_ros2_package:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.125413] (hello_moveit) JobProgress: {'identifier': 'hello_moveit', 'progress': 'cmake'}
+[0.127725] (hello_moveit) JobProgress: {'identifier': 'hello_moveit', 'progress': 'build'}
+[0.131027] (hello_moveit) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pizzu01/ros2_humble/build/hello_moveit', '--', '-j4', '-l4'], 'cwd': '/home/pizzu01/ros2_humble/build/hello_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pizzu01'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pizzu01'), ('OLDPWD', '/home/pizzu01/ros2_humble/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pizzu01/ros2_humble/install:/home/pizzu01/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pizzu01'), ('NAME', 'DESKTOP-QESEN07'), ('WSL_INTEROP', '/run/WSL/5187_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/pizzu01/ros2_humble/src/tm_description:/home/pizzu01/ros2_humble/install/tm_description/share/tm_description'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10021.0_x64__79rhkp1fndgsc:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Intel/iCLS Client/:/mnt/c/Program Files/Intel/iCLS Client/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Program Files/Java/jdk-17.0.1/bin:/mnt/c/TwinCAT/Common32:/mnt/c/TwinCAT/Common64:/mnt/c/Strawberry/c/bin:/mnt/c/Strawberry/perl/site/bin:/mnt/c/Strawberry/perl/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/lachiara/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/lachiara/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/lachiara/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/lachiara/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/lachiara/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/lachiara/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/lachiara/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/snap/bin:/usr/local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pizzu01/ros2_humble/install/tm_moveit_config:/home/pizzu01/ros2_humble/install/tm_description:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint:/home/pizzu01/ros2_humble/install/my_ros2_package:/home/pizzu01/ros2_humble/install/hello_moveit:/home/pizzu01/install/ros_tcp_endpoint:/home/pizzu01/install/my_ros2_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pizzu01/ros2_humble/build/hello_moveit'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/python3.10/site-packages:/home/pizzu01/ros2_humble/install/my_ros2_package/lib/python3.10/site-packages:/home/pizzu01/install/ros_tcp_endpoint/lib/python3.10/site-packages:/home/pizzu01/install/my_ros2_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/pizzu01/ros2_humble/install/tm_moveit_config:/home/pizzu01/ros2_humble/install/tm_description:/home/pizzu01/ros2_humble/install/hello_moveit:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint:/home/pizzu01/ros2_humble/install/my_ros2_package:/home/pizzu01/install/ros_tcp_endpoint:/home/pizzu01/install/my_ros2_package:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.199496] (-) TimerEvent: {}
+[0.302024] (-) TimerEvent: {}
+[0.402677] (-) TimerEvent: {}
+[0.503217] (-) TimerEvent: {}
+[0.603654] (-) TimerEvent: {}
+[0.704413] (-) TimerEvent: {}
+[0.806705] (-) TimerEvent: {}
+[0.908981] (-) TimerEvent: {}
+[1.009811] (-) TimerEvent: {}
+[1.110311] (-) TimerEvent: {}
+[1.210761] (-) TimerEvent: {}
+[1.311253] (-) TimerEvent: {}
+[1.411674] (-) TimerEvent: {}
+[1.512111] (-) TimerEvent: {}
+[1.615519] (-) TimerEvent: {}
+[1.649576] (tm_description) CommandEnded: {'returncode': 0}
+[1.652229] (tm_description) JobProgress: {'identifier': 'tm_description', 'progress': 'install'}
+[1.654142] (hello_moveit) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o\x1b[0m\n'}
+[1.683423] (tm_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pizzu01/ros2_humble/build/tm_description'], 'cwd': '/home/pizzu01/ros2_humble/build/tm_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pizzu01'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pizzu01'), ('OLDPWD', '/home/pizzu01/ros2_humble/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pizzu01/ros2_humble/install:/home/pizzu01/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pizzu01'), ('NAME', 'DESKTOP-QESEN07'), ('WSL_INTEROP', '/run/WSL/5187_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/pizzu01/ros2_humble/src/tm_description:/home/pizzu01/ros2_humble/install/tm_description/share/tm_description'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10021.0_x64__79rhkp1fndgsc:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Intel/iCLS Client/:/mnt/c/Program Files/Intel/iCLS Client/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Program Files/Java/jdk-17.0.1/bin:/mnt/c/TwinCAT/Common32:/mnt/c/TwinCAT/Common64:/mnt/c/Strawberry/c/bin:/mnt/c/Strawberry/perl/site/bin:/mnt/c/Strawberry/perl/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/lachiara/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/lachiara/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/lachiara/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/lachiara/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/lachiara/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/lachiara/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/lachiara/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/snap/bin:/usr/local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pizzu01/ros2_humble/install/tm_moveit_config:/home/pizzu01/ros2_humble/install/tm_description:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint:/home/pizzu01/ros2_humble/install/my_ros2_package:/home/pizzu01/ros2_humble/install/hello_moveit:/home/pizzu01/install/ros_tcp_endpoint:/home/pizzu01/install/my_ros2_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pizzu01/ros2_humble/build/tm_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/python3.10/site-packages:/home/pizzu01/ros2_humble/install/my_ros2_package/lib/python3.10/site-packages:/home/pizzu01/install/ros_tcp_endpoint/lib/python3.10/site-packages:/home/pizzu01/install/my_ros2_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/pizzu01/ros2_humble/install/tm_moveit_config:/home/pizzu01/ros2_humble/install/tm_description:/home/pizzu01/ros2_humble/install/hello_moveit:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint:/home/pizzu01/ros2_humble/install/my_ros2_package:/home/pizzu01/install/ros_tcp_endpoint:/home/pizzu01/install/my_ros2_package:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[1.697380] (tm_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.697831] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/urdf\n'}
+[1.698323] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/urdf/common.gazebo.xacro\n'}
+[1.698529] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/urdf/tm700.urdf.xacro\n'}
+[1.698727] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/urdf/tm700_robot_joint_limited_eih.urdf.xacro\n'}
+[1.698903] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/urdf/tm900_robot_moveit.urdf\n'}
+[1.699231] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/urdf/tm900_robot.urdf.xacro:Zone.Identifier\n'}
+[1.699505] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/urdf/tm900_robot_joint_limited.urdf.xacro\n'}
+[1.699669] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/urdf/tm900.eih.xacro:Zone.Identifier\n'}
+[1.699830] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/urdf/tm900_robot_eih.urdf.xacro:Zone.Identifier\n'}
+[1.699965] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/urdf/tm700.eih.xacro\n'}
+[1.700341] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/urdf/common.gazebo.xacro:Zone.Identifier\n'}
+[1.701023] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/urdf/tm900_robot_eih.urdf.xacro\n'}
+[1.701324] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/urdf/tm900.eih.xacro\n'}
+[1.701512] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/urdf/tm700_robot.urdf.xacro\n'}
+[1.701686] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/urdf/tm900_robot_prova2.urdf\n'}
+[1.701847] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/urdf/tm700_robot_eih.urdf.xacro\n'}
+[1.702013] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/urdf/tm700_robot.urdf.xacro:Zone.Identifier\n'}
+[1.702245] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/urdf/tm900.urdf.xacro:Zone.Identifier\n'}
+[1.702907] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/urdf/tm900_robot_joint_limited_eih.urdf.xacro:Zone.Identifier\n'}
+[1.704317] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/urdf/tm.gazebo.xacro\n'}
+[1.708750] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/urdf/tm700.eih.xacro:Zone.Identifier\n'}
+[1.709208] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/urdf/tm700_simple.urdf:Zone.Identifier\n'}
+[1.709671] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/urdf/tm.transmission.xacro\n'}
+[1.710147] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/urdf/tm700_robot_joint_limited.urdf.xacro\n'}
+[1.710639] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/urdf/tm700.urdf.xacro:Zone.Identifier\n'}
+[1.710813] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/urdf/tm.gazebo.xacro:Zone.Identifier\n'}
+[1.711120] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/urdf/tm700simple.urdf\n'}
+[1.711352] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/urdf/tm900_robot_joint_limited.urdf.xacro:Zone.Identifier\n'}
+[1.711749] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/urdf/tm.transmission.xacro:Zone.Identifier\n'}
+[1.711933] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/urdf/tm900_robot_prova2.urdf:Zone.Identifier\n'}
+[1.712199] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/urdf/tm900.urdf.xacro\n'}
+[1.716745] (-) TimerEvent: {}
+[1.716987] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/urdf/tm700_robot_joint_limited_eih.urdf.xacro:Zone.Identifier\n'}
+[1.717178] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/urdf/tm900_robot.urdf.xacro\n'}
+[1.717455] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/urdf/tm700simple.urdf:Zone.Identifier\n'}
+[1.717629] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/urdf/tm900_robot.urdf\n'}
+[1.717767] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/urdf/tm700_simple.urdf\n'}
+[1.717894] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/urdf/tm900_robot.urdf:Zone.Identifier\n'}
+[1.718028] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/urdf/tm700_robot_joint_limited.urdf.xacro:Zone.Identifier\n'}
+[1.718161] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/urdf/tm700_robot_eih.urdf.xacro:Zone.Identifier\n'}
+[1.718281] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/urdf/tm900_robot_joint_limited_eih.urdf.xacro\n'}
+[1.718400] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes\n'}
+[1.718672] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700\n'}
+[1.718884] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/visual\n'}
+[1.728114] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/visual/Wrist2.dae\n'}
+[1.728362] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/visual/Wrist1.STL\n'}
+[1.728534] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/visual/Shoulder1.STL\n'}
+[1.728706] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/visual/Arm2.dae:Zone.Identifier\n'}
+[1.728910] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/visual/Arm2.STL:Zone.Identifier\n'}
+[1.729255] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/visual/Wrist3.STL\n'}
+[1.729456] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/visual/Arm2.STL\n'}
+[1.729622] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/visual/Wrist1.dae:Zone.Identifier\n'}
+[1.729750] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/visual/Base.STL:Zone.Identifier\n'}
+[1.729885] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/visual/Shoulder1.dae\n'}
+[1.730097] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/visual/Arm1.dae:Zone.Identifier\n'}
+[1.730292] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/visual/Arm2.dae\n'}
+[1.730465] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/visual/Wrist3.dae:Zone.Identifier\n'}
+[1.730597] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/visual/Wrist3_.dae:Zone.Identifier\n'}
+[1.730725] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/visual/Base.dae\n'}
+[1.730851] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/visual/Wrist2.STL\n'}
+[1.731100] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/visual/Arm1.STL:Zone.Identifier\n'}
+[1.731274] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/visual/Wrist3_.dae\n'}
+[1.731426] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/visual/Base.dae:Zone.Identifier\n'}
+[1.731557] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/visual/Wrist3.dae\n'}
+[1.731696] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/visual/Wrist2.STL:Zone.Identifier\n'}
+[1.731821] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/visual/Arm1.dae\n'}
+[1.731991] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/visual/Wrist1.dae\n'}
+[1.732151] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/visual/Shoulder1.dae:Zone.Identifier\n'}
+[1.732296] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/visual/Wrist1.STL:Zone.Identifier\n'}
+[1.733522] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/visual/Shoulder1.STL:Zone.Identifier\n'}
+[1.733783] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/visual/Base.STL\n'}
+[1.733994] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/visual/Wrist2.dae:Zone.Identifier\n'}
+[1.734149] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/visual/Wrist3.STL:Zone.Identifier\n'}
+[1.734287] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/visual/Arm1.STL\n'}
+[1.734426] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/collision\n'}
+[1.734554] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/collision/wrist_2.STL\n'}
+[1.734709] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/collision/base.STL\n'}
+[1.734845] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/collision/arm_1.STL\n'}
+[1.735350] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/collision/wrist_2.STL:Zone.Identifier\n'}
+[1.745436] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/collision/wrist_3.STL:Zone.Identifier\n'}
+[1.745613] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/collision/base.STL:Zone.Identifier\n'}
+[1.746726] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/collision/wrist_1.STL:Zone.Identifier\n'}
+[1.746902] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/collision/arm_2.STL:Zone.Identifier\n'}
+[1.747129] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/collision/shoulder_1.STL:Zone.Identifier\n'}
+[1.747309] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/collision/shoulder_1.STL\n'}
+[1.747441] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/collision/arm_2.STL\n'}
+[1.747579] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/collision/wrist_3_1.STL\n'}
+[1.747701] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/collision/wrist_3_2.STL:Zone.Identifier\n'}
+[1.747818] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/collision/wrist_3_2.STL\n'}
+[1.747937] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/collision/wrist_3_1.STL:Zone.Identifier\n'}
+[1.748146] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/collision/arm_1.STL:Zone.Identifier\n'}
+[1.748300] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/collision/wrist_3.STL\n'}
+[1.748428] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm700/collision/wrist_1.STL\n'}
+[1.748654] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900\n'}
+[1.748811] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/visual\n'}
+[1.748936] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/visual/Wrist2.dae\n'}
+[1.749796] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/visual/Wrist1.STL\n'}
+[1.750075] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/visual/Shoulder1.STL\n'}
+[1.750265] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/visual/Arm2.dae:Zone.Identifier\n'}
+[1.750412] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/visual/Arm2.STL:Zone.Identifier\n'}
+[1.750577] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/visual/Wrist3.STL\n'}
+[1.750730] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/visual/Arm2.STL\n'}
+[1.750894] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/visual/Wrist1.dae:Zone.Identifier\n'}
+[1.751047] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/visual/Base.STL:Zone.Identifier\n'}
+[1.751830] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/visual/Shoulder1.dae\n'}
+[1.752002] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/visual/Arm1.dae:Zone.Identifier\n'}
+[1.752182] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/visual/Arm2.dae\n'}
+[1.752329] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/visual/Wrist3.dae:Zone.Identifier\n'}
+[1.752462] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/visual/Base.dae\n'}
+[1.752599] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/visual/Wrist2.STL\n'}
+[1.752732] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/visual/Arm1.STL:Zone.Identifier\n'}
+[1.764467] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/visual/Base.dae:Zone.Identifier\n'}
+[1.764726] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/visual/Wrist3.dae\n'}
+[1.764882] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/visual/Wrist2.STL:Zone.Identifier\n'}
+[1.765015] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/visual/Arm1.dae\n'}
+[1.765351] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/visual/Wrist1.dae\n'}
+[1.765491] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/visual/Shoulder1.dae:Zone.Identifier\n'}
+[1.766420] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/visual/Wrist1.STL:Zone.Identifier\n'}
+[1.766651] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/visual/Shoulder1.STL:Zone.Identifier\n'}
+[1.766784] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/visual/Base.STL\n'}
+[1.766922] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/visual/Wrist2.dae:Zone.Identifier\n'}
+[1.767064] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/visual/Wrist3.STL:Zone.Identifier\n'}
+[1.767324] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/visual/Arm1.STL\n'}
+[1.767480] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/collision\n'}
+[1.767622] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/collision/wrist_2.STL\n'}
+[1.767762] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/collision/base.STL\n'}
+[1.767902] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/collision/arm_1.STL\n'}
+[1.768077] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/collision/wrist_2.STL:Zone.Identifier\n'}
+[1.768320] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/collision/wrist_3.STL:Zone.Identifier\n'}
+[1.768453] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/collision/base.STL:Zone.Identifier\n'}
+[1.768591] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/collision/wrist_1.STL:Zone.Identifier\n'}
+[1.768734] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/collision/arm_2.STL:Zone.Identifier\n'}
+[1.769413] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/collision/shoulder_1.STL:Zone.Identifier\n'}
+[1.770601] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/collision/shoulder_1.STL\n'}
+[1.772440] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/collision/arm_2.STL\n'}
+[1.773253] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/collision/wrist_3_1.STL\n'}
+[1.774015] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/collision/wrist_3_2.STL:Zone.Identifier\n'}
+[1.774956] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/collision/wrist_3_2.STL\n'}
+[1.787201] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/collision/wrist_3_1.STL:Zone.Identifier\n'}
+[1.793651] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/collision/arm_1.STL:Zone.Identifier\n'}
+[1.807519] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/collision/wrist_3.STL\n'}
+[1.813164] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/collision/wrist_1.STL\n'}
+[1.813563] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/launch\n'}
+[1.814084] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/launch/tm900_upload.launch\n'}
+[1.814755] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/launch/test.launch\n'}
+[1.816286] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/launch/tm700_upload.launch\n'}
+[1.816583] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/launch/tm700_upload.launch:Zone.Identifier\n'}
+[1.816816] (-) TimerEvent: {}
+[1.819607] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/launch/test.launch:Zone.Identifier\n'}
+[1.820121] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/launch/tm900_upload.launch:Zone.Identifier\n'}
+[1.820487] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/config\n'}
+[1.820655] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/ament_index/resource_index/package_run_dependencies/tm_description\n'}
+[1.820803] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/ament_index/resource_index/parent_prefix_path/tm_description\n'}
+[1.820934] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/environment/ament_prefix_path.sh\n'}
+[1.821076] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/environment/ament_prefix_path.dsv\n'}
+[1.821204] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/environment/path.sh\n'}
+[1.821334] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/environment/path.dsv\n'}
+[1.821468] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/local_setup.bash\n'}
+[1.821604] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/local_setup.sh\n'}
+[1.821776] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/local_setup.zsh\n'}
+[1.821931] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/local_setup.dsv\n'}
+[1.822067] (tm_description) StdoutLine: {'line': b'-- Installing: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/package.dsv\n'}
+[1.822198] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/ament_index/resource_index/packages/tm_description\n'}
+[1.822327] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/cmake/tm_descriptionConfig.cmake\n'}
+[1.822461] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/cmake/tm_descriptionConfig-version.cmake\n'}
+[1.822706] (tm_description) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_description/share/tm_description/package.xml\n'}
+[1.822856] (tm_description) CommandEnded: {'returncode': 0}
+[1.829132] (tm_description) JobEnded: {'identifier': 'tm_description', 'rc': 0}
+[1.831285] (tm_moveit_config) JobStarted: {'identifier': 'tm_moveit_config'}
+[1.918161] (-) TimerEvent: {}
+[2.019930] (-) TimerEvent: {}
+[2.049051] (tm_moveit_config) JobProgress: {'identifier': 'tm_moveit_config', 'progress': 'cmake'}
+[2.049198] (tm_moveit_config) JobProgress: {'identifier': 'tm_moveit_config', 'progress': 'build'}
+[2.049249] (tm_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pizzu01/ros2_humble/build/tm_moveit_config', '--', '-j4', '-l4'], 'cwd': '/home/pizzu01/ros2_humble/build/tm_moveit_config', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pizzu01'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pizzu01'), ('OLDPWD', '/home/pizzu01/ros2_humble/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pizzu01/ros2_humble/install:/home/pizzu01/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pizzu01'), ('NAME', 'DESKTOP-QESEN07'), ('WSL_INTEROP', '/run/WSL/5187_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/pizzu01/ros2_humble/src/tm_description:/home/pizzu01/ros2_humble/install/tm_description/share/tm_description'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10021.0_x64__79rhkp1fndgsc:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Intel/iCLS Client/:/mnt/c/Program Files/Intel/iCLS Client/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Program Files/Java/jdk-17.0.1/bin:/mnt/c/TwinCAT/Common32:/mnt/c/TwinCAT/Common64:/mnt/c/Strawberry/c/bin:/mnt/c/Strawberry/perl/site/bin:/mnt/c/Strawberry/perl/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/lachiara/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/lachiara/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/lachiara/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/lachiara/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/lachiara/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/lachiara/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/lachiara/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/snap/bin:/usr/local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pizzu01/ros2_humble/install/tm_moveit_config:/home/pizzu01/ros2_humble/install/tm_description:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint:/home/pizzu01/ros2_humble/install/my_ros2_package:/home/pizzu01/ros2_humble/install/hello_moveit:/home/pizzu01/install/ros_tcp_endpoint:/home/pizzu01/install/my_ros2_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pizzu01/ros2_humble/build/tm_moveit_config'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/python3.10/site-packages:/home/pizzu01/ros2_humble/install/my_ros2_package/lib/python3.10/site-packages:/home/pizzu01/install/ros_tcp_endpoint/lib/python3.10/site-packages:/home/pizzu01/install/my_ros2_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/pizzu01/ros2_humble/install/tm_description:/home/pizzu01/ros2_humble/install/tm_moveit_config:/home/pizzu01/ros2_humble/install/hello_moveit:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint:/home/pizzu01/ros2_humble/install/my_ros2_package:/home/pizzu01/install/ros_tcp_endpoint:/home/pizzu01/install/my_ros2_package:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[2.120057] (-) TimerEvent: {}
+[2.205676] (tm_moveit_config) CommandEnded: {'returncode': 0}
+[2.208884] (tm_moveit_config) JobProgress: {'identifier': 'tm_moveit_config', 'progress': 'install'}
+[2.209099] (tm_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pizzu01/ros2_humble/build/tm_moveit_config'], 'cwd': '/home/pizzu01/ros2_humble/build/tm_moveit_config', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pizzu01'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pizzu01'), ('OLDPWD', '/home/pizzu01/ros2_humble/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pizzu01/ros2_humble/install:/home/pizzu01/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pizzu01'), ('NAME', 'DESKTOP-QESEN07'), ('WSL_INTEROP', '/run/WSL/5187_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/pizzu01/ros2_humble/src/tm_description:/home/pizzu01/ros2_humble/install/tm_description/share/tm_description'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10021.0_x64__79rhkp1fndgsc:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Intel/iCLS Client/:/mnt/c/Program Files/Intel/iCLS Client/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Program Files/Java/jdk-17.0.1/bin:/mnt/c/TwinCAT/Common32:/mnt/c/TwinCAT/Common64:/mnt/c/Strawberry/c/bin:/mnt/c/Strawberry/perl/site/bin:/mnt/c/Strawberry/perl/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/lachiara/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/lachiara/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/lachiara/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/lachiara/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/lachiara/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/lachiara/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/lachiara/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/snap/bin:/usr/local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pizzu01/ros2_humble/install/tm_moveit_config:/home/pizzu01/ros2_humble/install/tm_description:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint:/home/pizzu01/ros2_humble/install/my_ros2_package:/home/pizzu01/ros2_humble/install/hello_moveit:/home/pizzu01/install/ros_tcp_endpoint:/home/pizzu01/install/my_ros2_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pizzu01/ros2_humble/build/tm_moveit_config'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/python3.10/site-packages:/home/pizzu01/ros2_humble/install/my_ros2_package/lib/python3.10/site-packages:/home/pizzu01/install/ros_tcp_endpoint/lib/python3.10/site-packages:/home/pizzu01/install/my_ros2_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/pizzu01/ros2_humble/install/tm_description:/home/pizzu01/ros2_humble/install/tm_moveit_config:/home/pizzu01/ros2_humble/install/hello_moveit:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint:/home/pizzu01/ros2_humble/install/my_ros2_package:/home/pizzu01/install/ros_tcp_endpoint:/home/pizzu01/install/my_ros2_package:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[2.220168] (-) TimerEvent: {}
+[2.225471] (tm_moveit_config) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.227538] (tm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/lib/tm_moveit_config/demo.launch.py\n'}
+[2.227888] (tm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/lib/tm_moveit_config/move_robot.py\n'}
+[2.228060] (tm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/ament_index/resource_index/package_run_dependencies/tm_moveit_config\n'}
+[2.228212] (tm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/ament_index/resource_index/parent_prefix_path/tm_moveit_config\n'}
+[2.228359] (tm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/environment/ament_prefix_path.sh\n'}
+[2.228562] (tm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/environment/ament_prefix_path.dsv\n'}
+[2.228728] (tm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/environment/path.sh\n'}
+[2.228886] (tm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/environment/path.dsv\n'}
+[2.229026] (tm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/local_setup.bash\n'}
+[2.229171] (tm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/local_setup.sh\n'}
+[2.229307] (tm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/local_setup.zsh\n'}
+[2.229458] (tm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/local_setup.dsv\n'}
+[2.229915] (tm_moveit_config) StdoutLine: {'line': b'-- Installing: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/package.dsv\n'}
+[2.230905] (tm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/ament_index/resource_index/packages/tm_moveit_config\n'}
+[2.231383] (tm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/cmake/tm_moveit_configConfig.cmake\n'}
+[2.231773] (tm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/cmake/tm_moveit_configConfig-version.cmake\n'}
+[2.233054] (tm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/package.xml\n'}
+[2.233984] (tm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/launch\n'}
+[2.234483] (tm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/launch/warehouse_db.launch.py\n'}
+[2.234954] (tm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/launch/spawn_controllers.launch.py\n'}
+[2.238912] (tm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/launch/moveit_rviz.launch.py\n'}
+[2.239244] (tm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/launch/static_virtual_joint_tfs.launch.py\n'}
+[2.239427] (tm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/launch/__pycache__\n'}
+[2.239596] (tm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/launch/__pycache__/setup_assistant.launch.cpython-310.pyc\n'}
+[2.239778] (tm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/launch/rsp.launch.py\n'}
+[2.240325] (tm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/launch/demo.launch.py\n'}
+[2.240568] (tm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/launch/setup_assistant.launch.py\n'}
+[2.240885] (tm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/launch/move_group.launch.py\n'}
+[2.241478] (tm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/config\n'}
+[2.241670] (tm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/config/tm900.srdf\n'}
+[2.241973] (tm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/config/kinematics.yaml\n'}
+[2.242389] (tm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/config/moveit_controllers.yaml\n'}
+[2.242894] (tm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/config/moveit.rviz\n'}
+[2.243093] (tm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/config/tm900.ros2_control.xacro\n'}
+[2.243423] (tm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/config/pilz_cartesian_limits.yaml\n'}
+[2.243585] (tm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/config/ros2_controllers.yaml\n'}
+[2.243783] (tm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/config/initial_positions.yaml\n'}
+[2.243954] (tm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/config/tm900.urdf.xacro\n'}
+[2.244300] (tm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/config/joint_limits.yaml\n'}
+[2.245371] (tm_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/tm_moveit_config/share/tm_moveit_config/.setup_assistant\n'}
+[2.259836] (tm_moveit_config) CommandEnded: {'returncode': 0}
+[2.293528] (tm_moveit_config) JobEnded: {'identifier': 'tm_moveit_config', 'rc': 0}
+[2.321177] (-) TimerEvent: {}
+[2.423296] (-) TimerEvent: {}
+[2.524616] (-) TimerEvent: {}
+[2.625407] (-) TimerEvent: {}
+[2.725865] (-) TimerEvent: {}
+[2.826269] (-) TimerEvent: {}
+[2.926675] (-) TimerEvent: {}
+[3.027150] (-) TimerEvent: {}
+[3.039213] (ros_tcp_endpoint) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ros_tcp_endpoint', 'build', '--build-base', '/home/pizzu01/ros2_humble/build/ros_tcp_endpoint/build', 'install', '--record', '/home/pizzu01/ros2_humble/build/ros_tcp_endpoint/install.log', '--install-scripts', '$base/lib/ros_tcp_endpoint', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pizzu01/ros2_humble/src/ROS-TCP-Endpoint', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pizzu01', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/pizzu01', 'OLDPWD': '/home/pizzu01/ros2_humble/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/pizzu01/ros2_humble/install:/home/pizzu01/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pizzu01', 'NAME': 'DESKTOP-QESEN07', 'WSL_INTEROP': '/run/WSL/5187_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/home/pizzu01/ros2_humble/src/tm_description:/home/pizzu01/ros2_humble/install/tm_description/share/tm_description', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10021.0_x64__79rhkp1fndgsc:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Intel/iCLS Client/:/mnt/c/Program Files/Intel/iCLS Client/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Program Files/Java/jdk-17.0.1/bin:/mnt/c/TwinCAT/Common32:/mnt/c/TwinCAT/Common64:/mnt/c/Strawberry/c/bin:/mnt/c/Strawberry/perl/site/bin:/mnt/c/Strawberry/perl/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/lachiara/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/lachiara/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/lachiara/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/lachiara/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/lachiara/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/lachiara/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/lachiara/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/snap/bin:/usr/local/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/pizzu01/ros2_humble/install/tm_moveit_config:/home/pizzu01/ros2_humble/install/tm_description:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint:/home/pizzu01/ros2_humble/install/my_ros2_package:/home/pizzu01/ros2_humble/install/hello_moveit:/home/pizzu01/install/ros_tcp_endpoint:/home/pizzu01/install/my_ros2_package:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/pizzu01/ros2_humble/build/ros_tcp_endpoint', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pizzu01/ros2_humble/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/python3.10/site-packages:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/python3.10/site-packages:/home/pizzu01/ros2_humble/install/my_ros2_package/lib/python3.10/site-packages:/home/pizzu01/install/ros_tcp_endpoint/lib/python3.10/site-packages:/home/pizzu01/install/my_ros2_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/pizzu01/ros2_humble/install/tm_moveit_config:/home/pizzu01/ros2_humble/install/tm_description:/home/pizzu01/ros2_humble/install/hello_moveit', 'WSLENV': ''}, 'shell': False}
+[3.126432] (my_ros2_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_ros2_package', 'build', '--build-base', '/home/pizzu01/ros2_humble/build/my_ros2_package/build', 'install', '--record', '/home/pizzu01/ros2_humble/build/my_ros2_package/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pizzu01/ros2_humble/src/my_ros2_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pizzu01', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/pizzu01', 'OLDPWD': '/home/pizzu01/ros2_humble/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/pizzu01/ros2_humble/install:/home/pizzu01/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pizzu01', 'NAME': 'DESKTOP-QESEN07', 'WSL_INTEROP': '/run/WSL/5187_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/home/pizzu01/ros2_humble/src/tm_description:/home/pizzu01/ros2_humble/install/tm_description/share/tm_description', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10021.0_x64__79rhkp1fndgsc:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Intel/iCLS Client/:/mnt/c/Program Files/Intel/iCLS Client/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Program Files/Java/jdk-17.0.1/bin:/mnt/c/TwinCAT/Common32:/mnt/c/TwinCAT/Common64:/mnt/c/Strawberry/c/bin:/mnt/c/Strawberry/perl/site/bin:/mnt/c/Strawberry/perl/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/lachiara/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/lachiara/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/lachiara/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/lachiara/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/lachiara/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/lachiara/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/lachiara/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/snap/bin:/usr/local/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/pizzu01/ros2_humble/install/tm_moveit_config:/home/pizzu01/ros2_humble/install/tm_description:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint:/home/pizzu01/ros2_humble/install/my_ros2_package:/home/pizzu01/ros2_humble/install/hello_moveit:/home/pizzu01/install/ros_tcp_endpoint:/home/pizzu01/install/my_ros2_package:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/pizzu01/ros2_humble/build/my_ros2_package', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pizzu01/ros2_humble/build/my_ros2_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pizzu01/ros2_humble/install/my_ros2_package/lib/python3.10/site-packages:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/python3.10/site-packages:/home/pizzu01/ros2_humble/install/my_ros2_package/lib/python3.10/site-packages:/home/pizzu01/install/ros_tcp_endpoint/lib/python3.10/site-packages:/home/pizzu01/install/my_ros2_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/pizzu01/ros2_humble/install/tm_moveit_config:/home/pizzu01/ros2_humble/install/tm_description:/home/pizzu01/ros2_humble/install/hello_moveit', 'WSLENV': ''}, 'shell': False}
+[3.129693] (-) TimerEvent: {}
+[3.230547] (-) TimerEvent: {}
+[3.330932] (-) TimerEvent: {}
+[3.433418] (-) TimerEvent: {}
+[3.533924] (-) TimerEvent: {}
+[3.634343] (-) TimerEvent: {}
+[3.734756] (-) TimerEvent: {}
+[3.787892] (ros_tcp_endpoint) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[3.788333] (ros_tcp_endpoint) StderrLine: {'line': b'  warnings.warn(\n'}
+[3.817598] (ros_tcp_endpoint) StdoutLine: {'line': b'running egg_info\n'}
+[3.819252] (ros_tcp_endpoint) StdoutLine: {'line': b'writing ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/PKG-INFO\n'}
+[3.819664] (ros_tcp_endpoint) StdoutLine: {'line': b'writing dependency_links to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/dependency_links.txt\n'}
+[3.819975] (ros_tcp_endpoint) StdoutLine: {'line': b'writing entry points to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/entry_points.txt\n'}
+[3.820216] (ros_tcp_endpoint) StdoutLine: {'line': b'writing requirements to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/requires.txt\n'}
+[3.820520] (ros_tcp_endpoint) StdoutLine: {'line': b'writing top-level names to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/top_level.txt\n'}
+[3.825341] (ros_tcp_endpoint) StdoutLine: {'line': b"reading manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'\n"}
+[3.825870] (ros_tcp_endpoint) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[3.827425] (ros_tcp_endpoint) StdoutLine: {'line': b"writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'\n"}
+[3.827891] (ros_tcp_endpoint) StdoutLine: {'line': b'running build\n'}
+[3.828058] (ros_tcp_endpoint) StdoutLine: {'line': b'running build_py\n'}
+[3.829462] (ros_tcp_endpoint) StdoutLine: {'line': b'running install\n'}
+[3.830157] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_lib\n'}
+[3.836048] (-) TimerEvent: {}
+[3.836379] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_data\n'}
+[3.837088] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.842084] (ros_tcp_endpoint) StdoutLine: {'line': b"removing '/home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[3.842848] (ros_tcp_endpoint) StdoutLine: {'line': b'Copying ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info to /home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint-0.0.1-py3.10.egg-info\n'}
+[3.844240] (ros_tcp_endpoint) StdoutLine: {'line': b'running install_scripts\n'}
+[3.897948] (ros_tcp_endpoint) StdoutLine: {'line': b'Installing default_server_endpoint script to /home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/ros_tcp_endpoint\n'}
+[3.899365] (my_ros2_package) StdoutLine: {'line': b'running egg_info\n'}
+[3.899764] (ros_tcp_endpoint) StdoutLine: {'line': b"writing list of installed files to '/home/pizzu01/ros2_humble/build/ros_tcp_endpoint/install.log'\n"}
+[3.903314] (my_ros2_package) StdoutLine: {'line': b'writing ../../build/my_ros2_package/my_ros2_package.egg-info/PKG-INFO\n'}
+[3.907632] (my_ros2_package) StdoutLine: {'line': b'writing dependency_links to ../../build/my_ros2_package/my_ros2_package.egg-info/dependency_links.txt\n'}
+[3.910254] (my_ros2_package) StdoutLine: {'line': b'writing entry points to ../../build/my_ros2_package/my_ros2_package.egg-info/entry_points.txt\n'}
+[3.911467] (my_ros2_package) StdoutLine: {'line': b'writing requirements to ../../build/my_ros2_package/my_ros2_package.egg-info/requires.txt\n'}
+[3.912702] (my_ros2_package) StdoutLine: {'line': b'writing top-level names to ../../build/my_ros2_package/my_ros2_package.egg-info/top_level.txt\n'}
+[3.919233] (my_ros2_package) StdoutLine: {'line': b"reading manifest file '../../build/my_ros2_package/my_ros2_package.egg-info/SOURCES.txt'\n"}
+[3.921487] (my_ros2_package) StdoutLine: {'line': b"writing manifest file '../../build/my_ros2_package/my_ros2_package.egg-info/SOURCES.txt'\n"}
+[3.922067] (my_ros2_package) StdoutLine: {'line': b'running build\n'}
+[3.922664] (my_ros2_package) StdoutLine: {'line': b'running build_py\n'}
+[3.924347] (my_ros2_package) StdoutLine: {'line': b'running install\n'}
+[3.926450] (my_ros2_package) StdoutLine: {'line': b'running install_lib\n'}
+[3.929850] (my_ros2_package) StdoutLine: {'line': b'running install_data\n'}
+[3.930465] (my_ros2_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.936360] (-) TimerEvent: {}
+[3.946682] (my_ros2_package) StdoutLine: {'line': b"removing '/home/pizzu01/ros2_humble/install/my_ros2_package/lib/python3.10/site-packages/my_ros2_package-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.947151] (my_ros2_package) StdoutLine: {'line': b'Copying ../../build/my_ros2_package/my_ros2_package.egg-info to /home/pizzu01/ros2_humble/install/my_ros2_package/lib/python3.10/site-packages/my_ros2_package-0.0.0-py3.10.egg-info\n'}
+[3.950078] (my_ros2_package) StdoutLine: {'line': b'running install_scripts\n'}
+[3.990949] (ros_tcp_endpoint) CommandEnded: {'returncode': 0}
+[4.011391] (ros_tcp_endpoint) JobEnded: {'identifier': 'ros_tcp_endpoint', 'rc': 0}
+[4.024488] (my_ros2_package) StdoutLine: {'line': b'Installing moveit_controller script to /home/pizzu01/ros2_humble/install/my_ros2_package/lib/my_ros2_package\n'}
+[4.024869] (my_ros2_package) StdoutLine: {'line': b'Installing object_position_node script to /home/pizzu01/ros2_humble/install/my_ros2_package/lib/my_ros2_package\n'}
+[4.025128] (my_ros2_package) StdoutLine: {'line': b'Installing pose_listener script to /home/pizzu01/ros2_humble/install/my_ros2_package/lib/my_ros2_package\n'}
+[4.025969] (my_ros2_package) StdoutLine: {'line': b"writing list of installed files to '/home/pizzu01/ros2_humble/build/my_ros2_package/install.log'\n"}
+[4.036497] (-) TimerEvent: {}
+[4.127013] (my_ros2_package) CommandEnded: {'returncode': 0}
+[4.141990] (-) TimerEvent: {}
+[4.145653] (my_ros2_package) JobEnded: {'identifier': 'my_ros2_package', 'rc': 0}
+[4.242164] (-) TimerEvent: {}
+[4.342570] (-) TimerEvent: {}
+[4.442969] (-) TimerEvent: {}
+[4.543330] (-) TimerEvent: {}
+[4.643876] (-) TimerEvent: {}
+[4.744474] (-) TimerEvent: {}
+[4.845110] (-) TimerEvent: {}
+[4.945631] (-) TimerEvent: {}
+[5.050316] (-) TimerEvent: {}
+[5.151006] (-) TimerEvent: {}
+[5.251992] (-) TimerEvent: {}
+[5.353933] (-) TimerEvent: {}
+[5.456119] (-) TimerEvent: {}
+[5.557154] (-) TimerEvent: {}
+[5.657814] (-) TimerEvent: {}
+[5.758576] (-) TimerEvent: {}
+[5.859221] (-) TimerEvent: {}
+[5.960102] (-) TimerEvent: {}
+[6.060841] (-) TimerEvent: {}
+[6.161499] (-) TimerEvent: {}
+[6.262220] (-) TimerEvent: {}
+[6.363178] (-) TimerEvent: {}
+[6.465110] (-) TimerEvent: {}
+[6.566025] (-) TimerEvent: {}
+[6.666839] (-) TimerEvent: {}
+[6.767596] (-) TimerEvent: {}
+[6.868416] (-) TimerEvent: {}
+[6.968876] (-) TimerEvent: {}
+[7.069990] (-) TimerEvent: {}
+[7.172515] (-) TimerEvent: {}
+[7.274232] (-) TimerEvent: {}
+[7.375001] (-) TimerEvent: {}
+[7.476724] (-) TimerEvent: {}
+[7.577092] (-) TimerEvent: {}
+[7.677500] (-) TimerEvent: {}
+[7.777861] (-) TimerEvent: {}
+[7.878250] (-) TimerEvent: {}
+[7.978623] (-) TimerEvent: {}
+[8.079002] (-) TimerEvent: {}
+[8.179417] (-) TimerEvent: {}
+[8.279786] (-) TimerEvent: {}
+[8.380163] (-) TimerEvent: {}
+[8.480641] (-) TimerEvent: {}
+[8.581004] (-) TimerEvent: {}
+[8.681481] (-) TimerEvent: {}
+[8.781938] (-) TimerEvent: {}
+[8.882463] (-) TimerEvent: {}
+[8.982902] (-) TimerEvent: {}
+[9.083431] (-) TimerEvent: {}
+[9.184082] (-) TimerEvent: {}
+[9.284586] (-) TimerEvent: {}
+[9.390354] (-) TimerEvent: {}
+[9.503138] (-) TimerEvent: {}
+[9.604968] (-) TimerEvent: {}
+[9.705945] (-) TimerEvent: {}
+[9.806567] (-) TimerEvent: {}
+[9.907237] (-) TimerEvent: {}
+[10.007823] (-) TimerEvent: {}
+[10.113336] (-) TimerEvent: {}
+[10.213797] (-) TimerEvent: {}
+[10.314232] (-) TimerEvent: {}
+[10.415426] (-) TimerEvent: {}
+[10.515811] (-) TimerEvent: {}
+[10.616866] (-) TimerEvent: {}
+[10.718058] (-) TimerEvent: {}
+[10.818465] (-) TimerEvent: {}
+[10.918871] (-) TimerEvent: {}
+[11.019739] (-) TimerEvent: {}
+[11.121441] (-) TimerEvent: {}
+[11.222125] (-) TimerEvent: {}
+[11.323180] (-) TimerEvent: {}
+[11.423660] (-) TimerEvent: {}
+[11.524070] (-) TimerEvent: {}
+[11.624604] (-) TimerEvent: {}
+[11.725113] (-) TimerEvent: {}
+[11.825620] (-) TimerEvent: {}
+[11.926080] (-) TimerEvent: {}
+[12.026864] (-) TimerEvent: {}
+[12.127674] (-) TimerEvent: {}
+[12.228388] (-) TimerEvent: {}
+[12.328780] (-) TimerEvent: {}
+[12.429232] (-) TimerEvent: {}
+[12.529630] (-) TimerEvent: {}
+[12.630091] (-) TimerEvent: {}
+[12.730552] (-) TimerEvent: {}
+[12.831458] (-) TimerEvent: {}
+[12.932185] (-) TimerEvent: {}
+[13.032679] (-) TimerEvent: {}
+[13.133280] (-) TimerEvent: {}
+[13.234096] (-) TimerEvent: {}
+[13.334899] (-) TimerEvent: {}
+[13.436030] (-) TimerEvent: {}
+[13.536790] (-) TimerEvent: {}
+[13.637711] (-) TimerEvent: {}
+[13.739191] (-) TimerEvent: {}
+[13.840571] (-) TimerEvent: {}
+[13.941227] (-) TimerEvent: {}
+[14.043777] (-) TimerEvent: {}
+[14.144366] (-) TimerEvent: {}
+[14.244959] (-) TimerEvent: {}
+[14.345447] (-) TimerEvent: {}
+[14.445955] (-) TimerEvent: {}
+[14.546444] (-) TimerEvent: {}
+[14.647010] (-) TimerEvent: {}
+[14.747642] (-) TimerEvent: {}
+[14.848178] (-) TimerEvent: {}
+[14.948750] (-) TimerEvent: {}
+[15.049454] (-) TimerEvent: {}
+[15.150026] (-) TimerEvent: {}
+[15.251211] (-) TimerEvent: {}
+[15.355888] (-) TimerEvent: {}
+[15.456471] (-) TimerEvent: {}
+[15.560327] (-) TimerEvent: {}
+[15.660722] (-) TimerEvent: {}
+[15.761250] (-) TimerEvent: {}
+[15.861717] (-) TimerEvent: {}
+[15.962170] (-) TimerEvent: {}
+[16.062634] (-) TimerEvent: {}
+[16.163068] (-) TimerEvent: {}
+[16.263474] (-) TimerEvent: {}
+[16.363998] (-) TimerEvent: {}
+[16.464485] (-) TimerEvent: {}
+[16.564915] (-) TimerEvent: {}
+[16.665530] (-) TimerEvent: {}
+[16.766858] (-) TimerEvent: {}
+[16.867701] (-) TimerEvent: {}
+[16.969075] (-) TimerEvent: {}
+[17.072435] (-) TimerEvent: {}
+[17.173657] (-) TimerEvent: {}
+[17.274283] (-) TimerEvent: {}
+[17.376006] (-) TimerEvent: {}
+[17.476492] (-) TimerEvent: {}
+[17.577177] (-) TimerEvent: {}
+[17.677969] (-) TimerEvent: {}
+[17.778435] (-) TimerEvent: {}
+[17.878827] (-) TimerEvent: {}
+[17.979304] (-) TimerEvent: {}
+[18.079751] (-) TimerEvent: {}
+[18.180148] (-) TimerEvent: {}
+[18.280638] (-) TimerEvent: {}
+[18.381141] (-) TimerEvent: {}
+[18.481965] (-) TimerEvent: {}
+[18.582813] (-) TimerEvent: {}
+[18.683437] (-) TimerEvent: {}
+[18.784109] (-) TimerEvent: {}
+[18.885640] (-) TimerEvent: {}
+[18.986915] (-) TimerEvent: {}
+[19.088324] (-) TimerEvent: {}
+[19.190109] (-) TimerEvent: {}
+[19.290971] (-) TimerEvent: {}
+[19.391401] (-) TimerEvent: {}
+[19.491786] (-) TimerEvent: {}
+[19.592129] (-) TimerEvent: {}
+[19.692581] (-) TimerEvent: {}
+[19.793008] (-) TimerEvent: {}
+[19.893412] (-) TimerEvent: {}
+[19.993783] (-) TimerEvent: {}
+[20.094294] (-) TimerEvent: {}
+[20.194773] (-) TimerEvent: {}
+[20.295209] (-) TimerEvent: {}
+[20.395878] (-) TimerEvent: {}
+[20.496269] (-) TimerEvent: {}
+[20.596685] (-) TimerEvent: {}
+[20.697123] (-) TimerEvent: {}
+[20.803352] (-) TimerEvent: {}
+[20.904334] (-) TimerEvent: {}
+[21.004780] (-) TimerEvent: {}
+[21.105684] (-) TimerEvent: {}
+[21.206822] (-) TimerEvent: {}
+[21.307315] (-) TimerEvent: {}
+[21.407831] (-) TimerEvent: {}
+[21.508293] (-) TimerEvent: {}
+[21.608685] (-) TimerEvent: {}
+[21.709329] (-) TimerEvent: {}
+[21.810062] (-) TimerEvent: {}
+[21.910458] (-) TimerEvent: {}
+[22.010868] (-) TimerEvent: {}
+[22.115120] (-) TimerEvent: {}
+[22.215600] (-) TimerEvent: {}
+[22.316052] (-) TimerEvent: {}
+[22.416627] (-) TimerEvent: {}
+[22.517235] (-) TimerEvent: {}
+[22.618049] (-) TimerEvent: {}
+[22.719521] (-) TimerEvent: {}
+[22.820196] (-) TimerEvent: {}
+[22.921617] (-) TimerEvent: {}
+[23.022107] (-) TimerEvent: {}
+[23.122482] (-) TimerEvent: {}
+[23.130567] (hello_moveit) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable hello_moveit\x1b[0m\n'}
+[23.222793] (-) TimerEvent: {}
+[23.323517] (-) TimerEvent: {}
+[23.424010] (-) TimerEvent: {}
+[23.524844] (-) TimerEvent: {}
+[23.625397] (-) TimerEvent: {}
+[23.725859] (-) TimerEvent: {}
+[23.826289] (-) TimerEvent: {}
+[23.926718] (-) TimerEvent: {}
+[24.027153] (-) TimerEvent: {}
+[24.127967] (-) TimerEvent: {}
+[24.228515] (-) TimerEvent: {}
+[24.339584] (-) TimerEvent: {}
+[24.440574] (-) TimerEvent: {}
+[24.541089] (-) TimerEvent: {}
+[24.642066] (-) TimerEvent: {}
+[24.658399] (hello_moveit) StdoutLine: {'line': b'[100%] Built target hello_moveit\n'}
+[24.674964] (hello_moveit) CommandEnded: {'returncode': 0}
+[24.677186] (hello_moveit) JobProgress: {'identifier': 'hello_moveit', 'progress': 'install'}
+[24.677286] (hello_moveit) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pizzu01/ros2_humble/build/hello_moveit'], 'cwd': '/home/pizzu01/ros2_humble/build/hello_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pizzu01'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pizzu01'), ('OLDPWD', '/home/pizzu01/ros2_humble/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pizzu01/ros2_humble/install:/home/pizzu01/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pizzu01'), ('NAME', 'DESKTOP-QESEN07'), ('WSL_INTEROP', '/run/WSL/5187_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/pizzu01/ros2_humble/src/tm_description:/home/pizzu01/ros2_humble/install/tm_description/share/tm_description'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10021.0_x64__79rhkp1fndgsc:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Intel/iCLS Client/:/mnt/c/Program Files/Intel/iCLS Client/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Program Files/Java/jdk-17.0.1/bin:/mnt/c/TwinCAT/Common32:/mnt/c/TwinCAT/Common64:/mnt/c/Strawberry/c/bin:/mnt/c/Strawberry/perl/site/bin:/mnt/c/Strawberry/perl/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/lachiara/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/lachiara/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/lachiara/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/lachiara/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/lachiara/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/lachiara/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/lachiara/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/snap/bin:/usr/local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/pizzu01/ros2_humble/install/tm_moveit_config:/home/pizzu01/ros2_humble/install/tm_description:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint:/home/pizzu01/ros2_humble/install/my_ros2_package:/home/pizzu01/ros2_humble/install/hello_moveit:/home/pizzu01/install/ros_tcp_endpoint:/home/pizzu01/install/my_ros2_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pizzu01/ros2_humble/build/hello_moveit'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/python3.10/site-packages:/home/pizzu01/ros2_humble/install/my_ros2_package/lib/python3.10/site-packages:/home/pizzu01/install/ros_tcp_endpoint/lib/python3.10/site-packages:/home/pizzu01/install/my_ros2_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/pizzu01/ros2_humble/install/tm_moveit_config:/home/pizzu01/ros2_humble/install/tm_description:/home/pizzu01/ros2_humble/install/hello_moveit:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint:/home/pizzu01/ros2_humble/install/my_ros2_package:/home/pizzu01/install/ros_tcp_endpoint:/home/pizzu01/install/my_ros2_package:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[24.692794] (hello_moveit) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[24.695607] (hello_moveit) StdoutLine: {'line': b'-- Installing: /home/pizzu01/ros2_humble/install/hello_moveit/lib/hello_moveit/hello_moveit\n'}
+[24.698809] (hello_moveit) StdoutLine: {'line': b'-- Set runtime path of "/home/pizzu01/ros2_humble/install/hello_moveit/lib/hello_moveit/hello_moveit" to ""\n'}
+[24.699488] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/hello_moveit/share/ament_index/resource_index/package_run_dependencies/hello_moveit\n'}
+[24.700001] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/hello_moveit/share/ament_index/resource_index/parent_prefix_path/hello_moveit\n'}
+[24.700352] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.sh\n'}
+[24.700712] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.dsv\n'}
+[24.700914] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/hello_moveit/share/hello_moveit/environment/path.sh\n'}
+[24.701061] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/hello_moveit/share/hello_moveit/environment/path.dsv\n'}
+[24.701219] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/hello_moveit/share/hello_moveit/local_setup.bash\n'}
+[24.701406] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/hello_moveit/share/hello_moveit/local_setup.sh\n'}
+[24.701682] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/hello_moveit/share/hello_moveit/local_setup.zsh\n'}
+[24.701874] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/hello_moveit/share/hello_moveit/local_setup.dsv\n'}
+[24.702040] (hello_moveit) StdoutLine: {'line': b'-- Installing: /home/pizzu01/ros2_humble/install/hello_moveit/share/hello_moveit/package.dsv\n'}
+[24.702202] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/hello_moveit/share/ament_index/resource_index/packages/hello_moveit\n'}
+[24.702324] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig.cmake\n'}
+[24.702400] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig-version.cmake\n'}
+[24.702470] (hello_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/pizzu01/ros2_humble/install/hello_moveit/share/hello_moveit/package.xml\n'}
+[24.710483] (hello_moveit) CommandEnded: {'returncode': 0}
+[24.737602] (hello_moveit) JobEnded: {'identifier': 'hello_moveit', 'rc': 0}
+[24.740372] (-) EventReactorShutdown: {}

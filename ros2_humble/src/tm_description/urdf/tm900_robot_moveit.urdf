@@ -5,9 +5,10 @@
 <!-- =================================================================================== -->
 <robot name="tm900">
   <gazebo>
-    <plugin filename="libgazebo_ros_control.so" name="gazebo_ros_control">
-      <!--robotNamespace>/</robotNamespace-->
-      <!--robotSimType>gazebo_ros_control/DefaultRobotHWSim</robotSimType-->
+    <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
+      <robotNamespace>/</robotNamespace>
+      <robotSimType>gazebo_ros_control/DefaultRobotHWSim</robotSimType>
+      <rosparam command="load" file="$(find tm_moveit_config)/config/ros2_controllers.yaml" />
     </plugin>
     <!--
     <plugin name="gazebo_ros_power_monitor_controller" filename="libgazebo_ros_power_monitor.so">

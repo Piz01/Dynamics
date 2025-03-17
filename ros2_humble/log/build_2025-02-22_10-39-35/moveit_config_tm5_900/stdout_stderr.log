@@ -1,0 +1,47 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pizzu01/ros2_humble/build/moveit_config_tm5_900
+-- Install configuration: ""
+-- Up-to-date: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/ament_index/resource_index/package_run_dependencies/moveit_config_tm5_900
+-- Installing: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/ament_index/resource_index/parent_prefix_path/moveit_config_tm5_900
+-- Up-to-date: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/environment/ament_prefix_path.sh
+-- Installing: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/environment/path.sh
+-- Installing: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/environment/path.dsv
+-- Up-to-date: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/local_setup.bash
+-- Up-to-date: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/local_setup.sh
+-- Up-to-date: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/local_setup.zsh
+-- Installing: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/local_setup.dsv
+-- Installing: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/package.dsv
+-- Up-to-date: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/ament_index/resource_index/packages/moveit_config_tm5_900
+-- Up-to-date: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/cmake/moveit_config_tm5_900Config.cmake
+-- Up-to-date: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/cmake/moveit_config_tm5_900Config-version.cmake
+-- Up-to-date: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/package.xml
+-- Up-to-date: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/launch
+-- Up-to-date: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/launch/warehouse_db.launch.py
+-- Up-to-date: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/launch/spawn_controllers.launch.py
+-- Up-to-date: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/launch/moveit_rviz.launch.py
+-- Up-to-date: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/launch/static_virtual_joint_tfs.launch.py
+-- Up-to-date: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/launch/rsp.launch.py
+-- Up-to-date: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/launch/demo.launch.py
+-- Up-to-date: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/launch/setup_assistant.launch.py
+-- Up-to-date: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/launch/move_group.launch.py
+-- Up-to-date: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/config
+-- Up-to-date: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/config/tm900.srdf
+-- Up-to-date: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/config/kinematics.yaml
+-- Up-to-date: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/config/moveit_controllers.yaml
+-- Up-to-date: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/config/moveit.rviz
+-- Up-to-date: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/config/tm900.ros2_control.xacro
+-- Up-to-date: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/config/pilz_cartesian_limits.yaml
+-- Up-to-date: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/config/ros2_controllers.yaml
+-- Up-to-date: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/config/initial_positions.yaml
+-- Up-to-date: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/config/tm900.urdf.xacro
+-- Up-to-date: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/config/joint_limits.yaml
+[31mCMake Error at cmake_install.cmake:117 (file):
+  file INSTALL cannot find
+  "/home/pizzu01/ros2_humble/src/moveit_config_tm5_900/urdf": No such file or
+  directory.
+
+[0m
+-- Up-to-date: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/.setup_assistant

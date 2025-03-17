@@ -301,9 +301,18 @@ IL PROBLEMA ERA DOVUTO DAL FATTO CHE DAVANTI A "property" DOVEVA ESSERCI "xacro:
     </joint>
     
     <link name="${prefix}tip_link">
+       <visual>
+        <geometry>
+          <mesh filename="/home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/visual/Tip_link.STL"/>
+        </geometry>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <material name="Grey">
+          <color rgba="0.5 0.5 0.5 1.0"/>
+        </material>
+      </visual>
       <collision>
         <geometry>
-          <box size="0.05 0.05 0.05"/>
+          <mesh filename="/home/pizzu01/ros2_humble/install/tm_description/share/tm_description/meshes/tm900/collision/tip_link.STL"/>
         </geometry>
         <origin xyz="0 0 0.025" rpy="0 0 0"/>
       </collision>

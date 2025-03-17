@@ -1,0 +1,24 @@
+[1.610s] Invoking command in '/home/pizzu01/ros2_humble/src/ROS-TCP-Endpoint': PYTHONPATH=/home/pizzu01/ros2_humble/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/pizzu01/ros2_humble/build/ros_tcp_endpoint/build install --record /home/pizzu01/ros2_humble/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed install_data
+[1.893s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.893s]   warnings.warn(
+[1.904s] running egg_info
+[1.905s] writing ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/PKG-INFO
+[1.905s] writing dependency_links to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/dependency_links.txt
+[1.906s] writing entry points to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/entry_points.txt
+[1.906s] writing requirements to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/requires.txt
+[1.907s] writing top-level names to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/top_level.txt
+[1.912s] reading manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[1.913s] adding license file 'LICENSE'
+[1.914s] writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[1.914s] running build
+[1.915s] running build_py
+[1.916s] running install
+[1.916s] running install_lib
+[1.919s] running install_data
+[1.919s] running install_egg_info
+[1.921s] removing '/home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint-0.0.1-py3.10.egg-info' (and everything under it)
+[1.922s] Copying ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info to /home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint-0.0.1-py3.10.egg-info
+[1.924s] running install_scripts
+[1.949s] Installing default_server_endpoint script to /home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/ros_tcp_endpoint
+[1.950s] writing list of installed files to '/home/pizzu01/ros2_humble/build/ros_tcp_endpoint/install.log'
+[2.001s] Invoked command in '/home/pizzu01/ros2_humble/src/ROS-TCP-Endpoint' returned '0': PYTHONPATH=/home/pizzu01/ros2_humble/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/pizzu01/ros2_humble/build/ros_tcp_endpoint/build install --record /home/pizzu01/ros2_humble/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed install_data

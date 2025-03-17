@@ -10,6 +10,8 @@ setup.py
 ../../build/my_ros2_package/my_ros2_package.egg-info/zip-safe
 my_ros2_package/__init__.py
 my_ros2_package/control_robot.py
+my_ros2_package/fake_joint_state_publisher.py
+my_ros2_package/moveit_controller.py
 my_ros2_package/object_position_node.py
 my_ros2_package/pose_listener.py
 resource/my_ros2_package

@@ -1,7 +1,11 @@
+/home/pizzu01/ros2_humble/install/my_ros2_package/lib/python3.10/site-packages/my_ros2_package/fake_joint_state_publisher.py
+/home/pizzu01/ros2_humble/install/my_ros2_package/lib/python3.10/site-packages/my_ros2_package/moveit_controller.py
 /home/pizzu01/ros2_humble/install/my_ros2_package/lib/python3.10/site-packages/my_ros2_package/object_position_node.py
 /home/pizzu01/ros2_humble/install/my_ros2_package/lib/python3.10/site-packages/my_ros2_package/__init__.py
 /home/pizzu01/ros2_humble/install/my_ros2_package/lib/python3.10/site-packages/my_ros2_package/control_robot.py
 /home/pizzu01/ros2_humble/install/my_ros2_package/lib/python3.10/site-packages/my_ros2_package/pose_listener.py
+/home/pizzu01/ros2_humble/install/my_ros2_package/lib/python3.10/site-packages/my_ros2_package/__pycache__/fake_joint_state_publisher.cpython-310.pyc
+/home/pizzu01/ros2_humble/install/my_ros2_package/lib/python3.10/site-packages/my_ros2_package/__pycache__/moveit_controller.cpython-310.pyc
 /home/pizzu01/ros2_humble/install/my_ros2_package/lib/python3.10/site-packages/my_ros2_package/__pycache__/object_position_node.cpython-310.pyc
 /home/pizzu01/ros2_humble/install/my_ros2_package/lib/python3.10/site-packages/my_ros2_package/__pycache__/__init__.cpython-310.pyc
 /home/pizzu01/ros2_humble/install/my_ros2_package/lib/python3.10/site-packages/my_ros2_package/__pycache__/control_robot.cpython-310.pyc
@@ -15,5 +19,7 @@
 /home/pizzu01/ros2_humble/install/my_ros2_package/lib/python3.10/site-packages/my_ros2_package-0.0.0-py3.10.egg-info/top_level.txt
 /home/pizzu01/ros2_humble/install/my_ros2_package/lib/python3.10/site-packages/my_ros2_package-0.0.0-py3.10.egg-info/PKG-INFO
 /home/pizzu01/ros2_humble/install/my_ros2_package/lib/python3.10/site-packages/my_ros2_package-0.0.0-py3.10.egg-info/entry_points.txt
+/home/pizzu01/ros2_humble/install/my_ros2_package/lib/my_ros2_package/fake_joint_state_publisher
+/home/pizzu01/ros2_humble/install/my_ros2_package/lib/my_ros2_package/moveit_controller
 /home/pizzu01/ros2_humble/install/my_ros2_package/lib/my_ros2_package/object_position_node
 /home/pizzu01/ros2_humble/install/my_ros2_package/lib/my_ros2_package/pose_listener

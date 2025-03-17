@@ -1,0 +1,26 @@
+[0.079s] Invoking command in '/home/pizzu01/ros2_humble/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint:/home/pizzu01/ros2_humble/install/my_ros2_package:/home/pizzu01/install/ros_tcp_endpoint:/home/pizzu01/install/my_ros2_package:/opt/ros/humble /usr/bin/cmake --build /home/pizzu01/ros2_humble/build/hello_moveit -- -j4 -l4
+[0.576s] [35m[1mConsolidate compiler generated dependencies of target hello_moveit[0m
+[0.576s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o[0m
+[13.874s] [100%] [32m[1mLinking CXX executable hello_moveit[0m
+[14.640s] [100%] Built target hello_moveit
+[14.659s] Invoked command in '/home/pizzu01/ros2_humble/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint:/home/pizzu01/ros2_humble/install/my_ros2_package:/home/pizzu01/install/ros_tcp_endpoint:/home/pizzu01/install/my_ros2_package:/opt/ros/humble /usr/bin/cmake --build /home/pizzu01/ros2_humble/build/hello_moveit -- -j4 -l4
+[14.663s] Invoking command in '/home/pizzu01/ros2_humble/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint:/home/pizzu01/ros2_humble/install/my_ros2_package:/home/pizzu01/install/ros_tcp_endpoint:/home/pizzu01/install/my_ros2_package:/opt/ros/humble /usr/bin/cmake --install /home/pizzu01/ros2_humble/build/hello_moveit
+[14.671s] -- Install configuration: ""
+[14.672s] -- Installing: /home/pizzu01/ros2_humble/install/hello_moveit/lib/hello_moveit/hello_moveit
+[14.681s] -- Set runtime path of "/home/pizzu01/ros2_humble/install/hello_moveit/lib/hello_moveit/hello_moveit" to ""
+[14.682s] -- Up-to-date: /home/pizzu01/ros2_humble/install/hello_moveit/share/ament_index/resource_index/package_run_dependencies/hello_moveit
+[14.682s] -- Up-to-date: /home/pizzu01/ros2_humble/install/hello_moveit/share/ament_index/resource_index/parent_prefix_path/hello_moveit
+[14.683s] -- Up-to-date: /home/pizzu01/ros2_humble/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.sh
+[14.683s] -- Up-to-date: /home/pizzu01/ros2_humble/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.dsv
+[14.683s] -- Up-to-date: /home/pizzu01/ros2_humble/install/hello_moveit/share/hello_moveit/environment/path.sh
+[14.683s] -- Up-to-date: /home/pizzu01/ros2_humble/install/hello_moveit/share/hello_moveit/environment/path.dsv
+[14.684s] -- Up-to-date: /home/pizzu01/ros2_humble/install/hello_moveit/share/hello_moveit/local_setup.bash
+[14.684s] -- Up-to-date: /home/pizzu01/ros2_humble/install/hello_moveit/share/hello_moveit/local_setup.sh
+[14.684s] -- Up-to-date: /home/pizzu01/ros2_humble/install/hello_moveit/share/hello_moveit/local_setup.zsh
+[14.685s] -- Up-to-date: /home/pizzu01/ros2_humble/install/hello_moveit/share/hello_moveit/local_setup.dsv
+[14.685s] -- Installing: /home/pizzu01/ros2_humble/install/hello_moveit/share/hello_moveit/package.dsv
+[14.686s] -- Up-to-date: /home/pizzu01/ros2_humble/install/hello_moveit/share/ament_index/resource_index/packages/hello_moveit
+[14.686s] -- Up-to-date: /home/pizzu01/ros2_humble/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig.cmake
+[14.686s] -- Up-to-date: /home/pizzu01/ros2_humble/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig-version.cmake
+[14.687s] -- Up-to-date: /home/pizzu01/ros2_humble/install/hello_moveit/share/hello_moveit/package.xml
+[14.688s] Invoked command in '/home/pizzu01/ros2_humble/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint:/home/pizzu01/ros2_humble/install/my_ros2_package:/home/pizzu01/install/ros_tcp_endpoint:/home/pizzu01/install/my_ros2_package:/opt/ros/humble /usr/bin/cmake --install /home/pizzu01/ros2_humble/build/hello_moveit

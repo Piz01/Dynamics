@@ -1,34 +1,27 @@
 import rclpy
 from rclpy.node import Node
-from std_msgs.msg import String
+from trajectory_msgs.msg import JointTrajectory, JointTrajectoryPoint
 
-class SimpleMovementTestNode(Node):
+class JointTrajectoryPublisher(Node):
     def __init__(self):
-        super().__init__('simple_movement_test_node')
-        self.publisher = self.create_publisher(String, 'comandi_movimento', 10)
-        self.timer = self.create_timer(2.0, self.timer_callback)  # Pubblica ogni 2 secondi
-        self.commands = ["avanti", "indietro", "sinistra", "destra"]
-        self.current_command_index = 0
+        super().__init__('joint_trajectory_publisher')
+        self.publisher_ = self.create_publisher(JointTrajectory, '/manipulator_controller/joint_trajectory', 10)
+        self.timer = self.create_timer(1.0, self.send_command)
 
-    def timer_callback(self):
-        # Pubblica il comando corrente
-        comando = self.commands[self.current_command_index]
-        self.get_logger().info(f'Pubblicando comando: "{comando}"')
-        msg = String()
-        msg.data = comando
-        self.publisher.publish(msg)
+    def send_command(self):
+        msg = JointTrajectory()
+        msg.joint_names = ['shoulder_1_joint']  # Nome del giunto da muovere
 
-        # Aggiorna l'indice del comando
-        self.current_command_index += 1
-        if self.current_command_index >= len(self.commands):
-            self.current_command_index = 0  # Ripeti il ciclo
+        point = JointTrajectoryPoint()
+        point.positions = [1.0]  # Angolo desiderato in radianti
+        point.time_from_start.sec = 2  # Tempo per raggiungere la posizione (2 secondi)
 
-def main(args=None):
-    rclpy.init(args=args)
-    node = SimpleMovementTestNode()
-    rclpy.spin(node)
-    node.destroy_node()
-    rclpy.shutdown()
+        msg.points.append(point)
+        self.publisher_.publish(msg)
+        self.get_logger().info('Sent joint trajectory command')
 
-if __name__ == '__main__':
-    main()
+rclpy.init()
+node = JointTrajectoryPublisher()
+rclpy.spin(node)
+node.destroy_node()
+rclpy.shutdown()

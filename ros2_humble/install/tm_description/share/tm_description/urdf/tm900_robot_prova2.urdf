@@ -5,7 +5,7 @@
 <!-- =================================================================================== -->
 <robot name="tm900">
   <gazebo>
-    <plugin filename="libgazebo_ros_control.so" name="gazebo_ros_control">
+    <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
       <!--robotNamespace>/</robotNamespace-->
       <!--robotSimType>gazebo_ros_control/DefaultRobotHWSim</robotSimType-->
     </plugin>
@@ -45,6 +45,31 @@
   <gazebo reference="wrist_3_link">
     <selfCollide>true</selfCollide>
   </gazebo>
+  <ros2_control name="FakeSystem" type="system">
+    <hardware>
+      <plugin>ros2_control_demo_hardware/FakeSystem</plugin>
+    </hardware>
+    <joint name="shoulder_1_joint">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+    </joint>
+    <joint name="shoulder_2_joint">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+    </joint>
+    <joint name="elbow_1_joint">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+    </joint>
+    <joint name="wrist_1_joint">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+    </joint>
+    <joint name="wrist_2_joint">
+      <command_interface name="position"/>
+      <state_interface name="position"/>
+    </joint>
+  </ros2_control>
   <!-- Nella riga superiore dentro value stava scritto {-tm_d4 - elbow_offset - shoulder_offset} 
 ma causava un errore perchè tm_d4 is not defined, quindi lo sostituisco con il calcolo a mano
 IL PROBLEMA ERA DOVUTO DAL FATTO CHE DAVANTI A "property" DOVEVA ESSERCI "xacro:"

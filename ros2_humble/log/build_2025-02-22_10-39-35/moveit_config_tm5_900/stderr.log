@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:117 (file):
+  file INSTALL cannot find
+  "/home/pizzu01/ros2_humble/src/moveit_config_tm5_900/urdf": No such file or
+  directory.
+
+[0m

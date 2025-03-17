@@ -1,0 +1,142 @@
+[0.168s] Invoking command in '/home/pizzu01/ros2_humble/build/gazebo_ros2_control_demos': AMENT_PREFIX_PATH=/home/pizzu01/ros2_humble/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pizzu01/ros2_humble/install/gazebo_ros2_control:/home/pizzu01/ros2_humble/install/tm_description:/home/pizzu01/ros2_humble/install/tm_moveit_config:/home/pizzu01/ros2_humble/install/hello_moveit:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint:/home/pizzu01/ros2_humble/install/my_ros2_package:/home/pizzu01/install/ros_tcp_endpoint:/home/pizzu01/install/my_ros2_package:/opt/ros/humble LD_LIBRARY_PATH=/home/pizzu01/ros2_humble/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/pizzu01/ros2_humble/src/gazebo_ros2_control/gazebo_ros2_control_demos -DCMAKE_INSTALL_PREFIX=/home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos
+[0.513s] -- The C compiler identification is GNU 11.4.0
+[1.471s] -- The CXX compiler identification is GNU 11.4.0
+[2.102s] -- Detecting C compiler ABI info
+[2.292s] -- Detecting C compiler ABI info - done
+[2.299s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.304s] -- Detecting C compile features
+[2.305s] -- Detecting C compile features - done
+[2.309s] -- Detecting CXX compiler ABI info
+[2.503s] -- Detecting CXX compiler ABI info - done
+[2.511s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.511s] -- Detecting CXX compile features
+[2.512s] -- Detecting CXX compile features - done
+[2.524s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.685s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.803s] -- Found control_msgs: 4.7.0 (/opt/ros/humble/share/control_msgs/cmake)
+[3.039s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.048s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.059s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.077s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.099s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.247s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[3.304s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.308s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[3.338s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.350s] -- Looking for pthread.h
+[3.569s] -- Looking for pthread.h - found
+[3.569s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.779s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.780s] -- Found Threads: TRUE  
+[3.828s] -- Found rclcpp_action: 16.0.11 (/opt/ros/humble/share/rclcpp_action/cmake)
+[3.850s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.854s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.954s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.957s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.958s] -- Configured cppcheck include dirs: 
+[3.958s] -- Configured cppcheck exclude dirs and/or files: 
+[3.960s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.960s] -- Configured cpplint exclude dirs and/or files: 
+[3.962s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.965s] -- Added test 'lint_cmake' to check CMake code style
+[3.967s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.969s] -- Added test 'uncrustify' to check C / C++ code style
+[3.969s] -- Configured uncrustify additional arguments: 
+[3.970s] -- Added test 'xmllint' to check XML markup files
+[3.972s] -- Configuring done
+[4.009s] -- Generating done
+[4.023s] -- Build files have been written to: /home/pizzu01/ros2_humble/build/gazebo_ros2_control_demos
+[4.034s] Invoked command in '/home/pizzu01/ros2_humble/build/gazebo_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/pizzu01/ros2_humble/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pizzu01/ros2_humble/install/gazebo_ros2_control:/home/pizzu01/ros2_humble/install/tm_description:/home/pizzu01/ros2_humble/install/tm_moveit_config:/home/pizzu01/ros2_humble/install/hello_moveit:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint:/home/pizzu01/ros2_humble/install/my_ros2_package:/home/pizzu01/install/ros_tcp_endpoint:/home/pizzu01/install/my_ros2_package:/opt/ros/humble LD_LIBRARY_PATH=/home/pizzu01/ros2_humble/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/pizzu01/ros2_humble/src/gazebo_ros2_control/gazebo_ros2_control_demos -DCMAKE_INSTALL_PREFIX=/home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos
+[4.035s] Invoking command in '/home/pizzu01/ros2_humble/build/gazebo_ros2_control_demos': AMENT_PREFIX_PATH=/home/pizzu01/ros2_humble/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pizzu01/ros2_humble/install/gazebo_ros2_control:/home/pizzu01/ros2_humble/install/tm_description:/home/pizzu01/ros2_humble/install/tm_moveit_config:/home/pizzu01/ros2_humble/install/hello_moveit:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint:/home/pizzu01/ros2_humble/install/my_ros2_package:/home/pizzu01/install/ros_tcp_endpoint:/home/pizzu01/install/my_ros2_package:/opt/ros/humble LD_LIBRARY_PATH=/home/pizzu01/ros2_humble/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/pizzu01/ros2_humble/build/gazebo_ros2_control_demos -- -j4 -l4
+[4.095s] [ 14%] [32mBuilding CXX object CMakeFiles/example_position.dir/examples/example_position.cpp.o[0m
+[4.095s] [ 14%] [32mBuilding CXX object CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o[0m
+[4.096s] [ 21%] [32mBuilding CXX object CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o[0m
+[4.097s] [ 28%] [32mBuilding CXX object CMakeFiles/example_effort.dir/examples/example_effort.cpp.o[0m
+[11.962s] [ 35%] [32m[1mLinking CXX executable example_effort[0m
+[12.081s] [ 42%] [32m[1mLinking CXX executable example_velocity[0m
+[12.102s] [ 50%] [32m[1mLinking CXX executable example_gripper[0m
+[12.723s] [ 50%] Built target example_effort
+[12.755s] [ 57%] [32mBuilding CXX object CMakeFiles/example_position_pid.dir/examples/example_position_pid.cpp.o[0m
+[12.774s] [ 57%] Built target example_velocity
+[12.779s] [ 57%] Built target example_gripper
+[12.807s] [ 64%] [32mBuilding CXX object CMakeFiles/example_diff_drive.dir/examples/example_diff_drive.cpp.o[0m
+[12.823s] [ 71%] [32mBuilding CXX object CMakeFiles/example_tricycle_drive.dir/examples/example_tricycle_drive.cpp.o[0m
+[13.138s] [ 78%] [32m[1mLinking CXX executable example_position[0m
+[13.927s] [ 78%] Built target example_position
+[19.873s] [ 85%] [32m[1mLinking CXX executable example_diff_drive[0m
+[19.887s] [ 92%] [32m[1mLinking CXX executable example_tricycle_drive[0m
+[19.992s] [100%] [32m[1mLinking CXX executable example_position_pid[0m
+[20.491s] [100%] Built target example_diff_drive
+[20.491s] [100%] Built target example_tricycle_drive
+[20.537s] [100%] Built target example_position_pid
+[20.548s] Invoked command in '/home/pizzu01/ros2_humble/build/gazebo_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/pizzu01/ros2_humble/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pizzu01/ros2_humble/install/gazebo_ros2_control:/home/pizzu01/ros2_humble/install/tm_description:/home/pizzu01/ros2_humble/install/tm_moveit_config:/home/pizzu01/ros2_humble/install/hello_moveit:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint:/home/pizzu01/ros2_humble/install/my_ros2_package:/home/pizzu01/install/ros_tcp_endpoint:/home/pizzu01/install/my_ros2_package:/opt/ros/humble LD_LIBRARY_PATH=/home/pizzu01/ros2_humble/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/pizzu01/ros2_humble/build/gazebo_ros2_control_demos -- -j4 -l4
+[20.550s] Invoking command in '/home/pizzu01/ros2_humble/build/gazebo_ros2_control_demos': AMENT_PREFIX_PATH=/home/pizzu01/ros2_humble/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pizzu01/ros2_humble/install/gazebo_ros2_control:/home/pizzu01/ros2_humble/install/tm_description:/home/pizzu01/ros2_humble/install/tm_moveit_config:/home/pizzu01/ros2_humble/install/hello_moveit:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint:/home/pizzu01/ros2_humble/install/my_ros2_package:/home/pizzu01/install/ros_tcp_endpoint:/home/pizzu01/install/my_ros2_package:/opt/ros/humble LD_LIBRARY_PATH=/home/pizzu01/ros2_humble/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/pizzu01/ros2_humble/build/gazebo_ros2_control_demos
+[20.557s] -- Install configuration: ""
+[20.557s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch
+[20.558s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_effort.launch.py
+[20.559s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_velocity.launch.py
+[20.559s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/vertical_cart_example_position_pid.launch.py
+[20.559s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/pendulum_example_effort.launch.py
+[20.559s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/diff_drive_pair_namespaced.launch.py
+[20.560s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/pendulum_example_position.launch.py
+[20.560s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/diff_drive_namespaced.launch.py
+[20.560s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/vertical_cart_example_velocity_pid.launch.py
+[20.560s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/vertical_cart_example_position_pids_in_yaml.launch.py
+[20.561s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/diff_drive.launch.py
+[20.561s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/tricycle_drive.launch.py
+[20.561s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_position.launch.py
+[20.561s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/gripper_mimic_joint_example.launch.py
+[20.562s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config
+[20.562s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/gripper_controller.yaml
+[20.562s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/diff_drive_controller_namespaced.yaml
+[20.562s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller.yaml
+[20.562s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_velocity.yaml
+[20.563s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/diff_drive_controller.yaml
+[20.563s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_effort.yaml
+[20.563s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_position_with_pids.yaml
+[20.564s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/tricycle_drive_controller.yaml
+[20.564s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_position.yaml
+[20.564s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/config.rviz
+[20.564s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf
+[20.564s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_tricycle_drive.xacro.urdf
+[20.565s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_pendulum_position.xacro.urdf
+[20.565s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_pendulum_effort.xacro.urdf
+[20.565s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_effort.xacro.urdf
+[20.565s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_diff_drive_namespaced.xacro.urdf
+[20.565s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_vertical_cart_position_pids_in_yaml.xacro.urdf
+[20.565s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf
+[20.565s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_gripper_mimic_joint.xacro.urdf
+[20.565s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_diff_drive.xacro.urdf
+[20.565s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_vertical_cart_velocity_pid.xacro.urdf
+[20.565s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_vertical_cart_position_pid.xacro.urdf
+[20.565s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_position.xacro.urdf
+[20.565s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position
+[20.566s] -- Set runtime path of "/home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position" to ""
+[20.566s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position_pid
+[20.567s] -- Set runtime path of "/home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position_pid" to ""
+[20.568s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_velocity
+[20.569s] -- Set runtime path of "/home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_velocity" to ""
+[20.569s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_effort
+[20.570s] -- Set runtime path of "/home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_effort" to ""
+[20.570s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_diff_drive
+[20.572s] -- Set runtime path of "/home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_diff_drive" to ""
+[20.572s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_tricycle_drive
+[20.574s] -- Set runtime path of "/home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_tricycle_drive" to ""
+[20.574s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_gripper
+[20.575s] -- Set runtime path of "/home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_gripper" to ""
+[20.576s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control_demos
+[20.577s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control_demos
+[20.577s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.sh
+[20.577s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.dsv
+[20.577s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.sh
+[20.578s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.dsv
+[20.578s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.bash
+[20.578s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.sh
+[20.579s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.zsh
+[20.579s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.dsv
+[20.579s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.dsv
+[20.579s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/ament_index/resource_index/packages/gazebo_ros2_control_demos
+[20.580s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig.cmake
+[20.580s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig-version.cmake
+[20.580s] -- Installing: /home/pizzu01/ros2_humble/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.xml
+[20.583s] Invoked command in '/home/pizzu01/ros2_humble/build/gazebo_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/pizzu01/ros2_humble/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pizzu01/ros2_humble/install/gazebo_ros2_control:/home/pizzu01/ros2_humble/install/tm_description:/home/pizzu01/ros2_humble/install/tm_moveit_config:/home/pizzu01/ros2_humble/install/hello_moveit:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint:/home/pizzu01/ros2_humble/install/my_ros2_package:/home/pizzu01/install/ros_tcp_endpoint:/home/pizzu01/install/my_ros2_package:/opt/ros/humble LD_LIBRARY_PATH=/home/pizzu01/ros2_humble/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/pizzu01/ros2_humble/build/gazebo_ros2_control_demos

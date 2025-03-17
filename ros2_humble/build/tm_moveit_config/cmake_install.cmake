@@ -43,13 +43,6 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/tm_moveit_config" TYPE PROGRAM FILES
-    "/home/pizzu01/ros2_humble/src/tm_moveit_config/launch/demo.launch.py"
-    "/home/pizzu01/ros2_humble/src/tm_moveit_config/scripts/move_robot.py"
-    )
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/pizzu01/ros2_humble/build/tm_moveit_config/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/tm_moveit_config")
 endif()
 

@@ -1,0 +1,15 @@
+[0.094s] Invoking command in '/home/pizzu01/ros2_humble/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint:/home/pizzu01/ros2_humble/install/my_ros2_package:/home/pizzu01/install/ros_tcp_endpoint:/home/pizzu01/install/my_ros2_package:/opt/ros/humble /usr/bin/cmake --build /home/pizzu01/ros2_humble/build/hello_moveit -- -j4 -l4
+[0.537s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o[0m
+[0.538s] gmake[2]: *** No rule to make target '/opt/ros/humble/lib/libmoveit_move_group_interface.so.2.5.7', needed by 'hello_moveit'.  Stop.
+[0.538s] gmake[2]: *** Waiting for unfinished jobs....
+[1.642s] In file included from [01m[K/opt/ros/humble/include/moveit/robot_state/robot_state.h:40[m[K,
+[1.642s]                  from [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:41[m[K,
+[1.642s]                  from [01m[K/home/pizzu01/ros2_humble/src/hello_moveit/src/hello_moveit.cpp:4[m[K:
+[1.642s] [01m[K/opt/ros/humble/include/moveit/robot_model/robot_model.h:42:10:[m[K [01;31m[Kfatal error: [m[Ksrdfdom/model.h: No such file or directory
+[1.642s]    42 | #include [01;31m[K<srdfdom/model.h>[m[K
+[1.642s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.642s] compilation terminated.
+[1.648s] gmake[2]: *** [CMakeFiles/hello_moveit.dir/build.make:76: CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o] Error 1
+[1.649s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hello_moveit.dir/all] Error 2
+[1.649s] gmake: *** [Makefile:146: all] Error 2
+[1.652s] Invoked command in '/home/pizzu01/ros2_humble/build/hello_moveit' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pizzu01/ros2_humble/install/ros_tcp_endpoint:/home/pizzu01/ros2_humble/install/my_ros2_package:/home/pizzu01/install/ros_tcp_endpoint:/home/pizzu01/install/my_ros2_package:/opt/ros/humble /usr/bin/cmake --build /home/pizzu01/ros2_humble/build/hello_moveit -- -j4 -l4

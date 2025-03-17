@@ -1,0 +1,54 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pizzu01/ros2_humble/build/moveit_config_tm5_900
+-- Install configuration: ""
+-- Installing: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/ament_index/resource_index/package_run_dependencies/moveit_config_tm5_900
+-- Installing: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/ament_index/resource_index/parent_prefix_path/moveit_config_tm5_900
+-- Installing: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/environment/ament_prefix_path.sh
+-- Installing: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/environment/ament_prefix_path.dsv
+-- Installing: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/environment/path.sh
+-- Installing: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/environment/path.dsv
+-- Installing: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/local_setup.bash
+-- Installing: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/local_setup.sh
+-- Installing: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/local_setup.zsh
+-- Installing: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/local_setup.dsv
+-- Installing: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/package.dsv
+-- Installing: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/ament_index/resource_index/packages/moveit_config_tm5_900
+-- Installing: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/cmake/moveit_config_tm5_900Config.cmake
+-- Installing: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/cmake/moveit_config_tm5_900Config-version.cmake
+-- Installing: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/package.xml
+-- Installing: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/launch
+-- Installing: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/launch/warehouse_db.launch.py
+-- Installing: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/launch/spawn_controllers.launch.py
+-- Installing: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/launch/moveit_rviz.launch.py
+-- Installing: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/launch/static_virtual_joint_tfs.launch.py
+-- Installing: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/launch/rsp.launch.py
+-- Installing: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/launch/demo.launch.py
+-- Installing: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/launch/setup_assistant.launch.py
+-- Installing: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/launch/move_group.launch.py
+-- Installing: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/config
+-- Installing: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/config/tm900.srdf
+-- Installing: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/config/kinematics.yaml
+-- Installing: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/config/moveit_controllers.yaml
+-- Installing: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/config/moveit.rviz
+-- Installing: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/config/tm900.ros2_control.xacro
+-- Installing: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/config/pilz_cartesian_limits.yaml
+-- Installing: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/config/ros2_controllers.yaml
+-- Installing: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/config/initial_positions.yaml
+-- Installing: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/config/tm900.urdf.xacro
+-- Installing: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/config/joint_limits.yaml
+-- Installing: /home/pizzu01/ros2_humble/install/moveit_config_tm5_900/share/moveit_config_tm5_900/.setup_assistant

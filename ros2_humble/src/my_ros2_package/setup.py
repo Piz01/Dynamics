@@ -21,6 +21,8 @@ setup(
     entry_points={
         'console_scripts': [ 'object_position_node = my_ros2_package.object_position_node:main',
 				'pose_listener = my_ros2_package.pose_listener:main',
+                              'moveit_controller = my_ros2_package.moveit_controller:main',
+                              'fake_joint_state_publisher = my_ros2_package.fake_joint_state_publisher:main',
         ],
     },
 )

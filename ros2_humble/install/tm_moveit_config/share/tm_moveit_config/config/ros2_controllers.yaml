@@ -18,9 +18,9 @@ manipulator_controller:
       - elbow_1_joint
       - wrist_1_joint
       - wrist_2_joint
+      - wrist_3_joint
     command_interfaces:
       - position
-      - velocity
     state_interfaces:
       - position
       - velocity
